@@ -66,29 +66,6 @@
 	</style>
 	<link rel='stylesheet' id='dashicons-css'
 		href='https://banthotreotuong.com/wp-includes/css/dashicons.min.css?ver=6.9.1' type='text/css' media='all' />
-	<link rel='stylesheet' id='admin-bar-css'
-		href='https://banthotreotuong.com/wp-includes/css/admin-bar.min.css?ver=6.9.1' type='text/css' media='all' />
-	<style id='admin-bar-inline-css' type='text/css'>
-		@media screen {
-			html {
-				margin-top: 32px !important;
-			}
-		}
-
-		@media screen and (max-width: 782px) {
-			html {
-				margin-top: 46px !important;
-			}
-		}
-
-		@media print {
-			#wpadminbar {
-				display: none;
-			}
-		}
-
-		/*# sourceURL=admin-bar-inline-css */
-	</style>
 	<link rel='stylesheet' id='menu-icons-extra-css'
 		href='https://banthotreotuong.com/wp-content/plugins/ot-flatsome-vertical-menu/libs/menu-icons/css/extra.min.css?ver=0.12.2'
 		type='text/css' media='all' />
@@ -780,12 +757,6 @@
 	<link rel='stylesheet' id='brands-styles-css'
 		href='https://banthotreotuong.com/wp-content/plugins/woocommerce/assets/css/brands.css?ver=10.3.8'
 		type='text/css' media='all' />
-	<link rel='stylesheet' id='rank-math-css'
-		href='https://banthotreotuong.com/wp-content/plugins/seo-by-rank-math/assets/front/css/rank-math.css?ver=1.0.257'
-		type='text/css' media='all' />
-	<link rel='stylesheet' id='wp-fastest-cache-toolbar-css'
-		href='https://banthotreotuong.com/wp-content/plugins/wp-fastest-cache/css/toolbar.css?ver=1773113663'
-		type='text/css' media='all' />
 	<link rel='stylesheet' id='flatsome-main-css'
 		href='https://banthotreotuong.com/wp-content/themes/flatsome/assets/css/flatsome.css?ver=3.20.3' type='text/css'
 		media='all' />
@@ -811,12 +782,12 @@
 		href='https://banthotreotuong.com/wp-content/themes/bt-nhat-tam/style.css?ver=3.0' type='text/css'
 		media='all' />
 	<script type="text/template" id="tmpl-variation-template">
-<div class="woocommerce-variation-description">{{{ data.variation.variation_description }}}</div>
-<div class="woocommerce-variation-price">{{{ data.variation.price_html }}}</div>
-<div class="woocommerce-variation-availability">{{{ data.variation.availability_html }}}</div>
+	<div class="woocommerce-variation-description">{{{ data.variation.variation_description }}}</div>
+	<div class="woocommerce-variation-price">{{{ data.variation.price_html }}}</div>
+	<div class="woocommerce-variation-availability">{{{ data.variation.availability_html }}}</div>
 </script>
 	<script type="text/template" id="tmpl-unavailable-variation-template">
-<p role="alert">Rất tiếc, sản phẩm này hiện không tồn tại. Hãy chọn một phương thức kết hợp khác.</p>
+	<p role="alert">Rất tiếc, sản phẩm này hiện không tồn tại. Hãy chọn một phương thức kết hợp khác.</p>
 </script>
 	<script type="text/javascript" src="https://banthotreotuong.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
 		id="jquery-core-js"></script>
@@ -872,48 +843,6 @@
 			}
 		</style>
 	</noscript>
-	<style>
-		#wpadminbar .quicklinks #wp-admin-bar-woocommerce-site-visibility-badge {
-			padding: 7px 0;
-		}
-
-		#wpadminbar .quicklinks #wp-admin-bar-woocommerce-site-visibility-badge a.ab-item {
-			/* Layout */
-			background-color: #F6F7F7;
-			border-radius: 2px;
-			display: flex;
-			height: 18px;
-			padding: 0px 6px;
-			align-items: center;
-			gap: 8px;
-
-			/* Typography */
-			color: #3C434A;
-			font-size: 12px;
-			font-style: normal;
-			font-weight: 500;
-			line-height: 16px;
-		}
-
-		#wpadminbar .quicklinks #wp-admin-bar-woocommerce-site-visibility-badge a.ab-item:hover,
-		#wpadminbar .quicklinks #wp-admin-bar-woocommerce-site-visibility-badge a.ab-item:focus {
-			background-color: #DCDCDE;
-		}
-
-		#wpadminbar .quicklinks #wp-admin-bar-woocommerce-site-visibility-badge a.ab-item:focus {
-			outline: var(--wp-admin-border-width-focus) solid var(--wp-admin-theme-color-darker-20);
-		}
-
-		#wpadminbar .quicklinks #wp-admin-bar-woocommerce-site-visibility-badge.woocommerce-site-status-badge-live a.ab-item {
-			background-color: #E6F2E8;
-			color: #00450C;
-		}
-
-		#wpadminbar .quicklinks #wp-admin-bar-woocommerce-site-visibility-badge.woocommerce-site-status-badge-live a.ab-item:hover,
-		#wpadminbar .quicklinks #wp-admin-bar-woocommerce-site-visibility-badge.woocommerce-site-status-badge-live a.ab-item:focus {
-			background-color: #B8E6BF;
-		}
-	</style>
 	<link rel="icon"
 		href="https://banthotreotuong.com/wp-content/uploads/2023/02/cropped-favicon-ban-tho-dak-lak-32x32.png"
 		sizes="32x32" />
@@ -3184,61 +3113,6 @@
 			}
 		}
 
-		@media (max-width: 849px) {
-			#wpadminbar {
-				display: none !important;
-			}
-
-			html {
-				margin-top: 0 !important
-			}
-		}
-
-		@media (min-width: 850px) {
-
-			.mfp-content,
-			.stuck,
-			button.mfp-close {
-				top: 32px !important;
-			}
-
-			.is-full-height {
-				height: calc(100vh - 32px) !important;
-			}
-		}
-
-		.xdebug-var-dump {
-			z-index: 999999;
-		}
-
-		.shortcode-error {
-			border: 2px dashed #000;
-			padding: 20px;
-			color: #fff;
-			font-size: 16px;
-			background-color: #71cedf;
-		}
-
-		.custom-product-page .shortcode-error {
-			padding: 15% 10%;
-			text-align: center;
-		}
-
-		.edit-block-wrapper {
-			position: relative;
-		}
-
-		.edit-block-button {
-			font-size: 12px !important;
-			background-color: #555 !important;
-			margin: 6px 2px 3px 0px !important;
-			border-radius: 4px !important;
-		}
-
-		.edit-block-button-builder {
-			background-color: #00a0d2 !important;
-		}
-
 		.label-new.menu-item>a:after {
 			content: "Mới";
 		}
@@ -3566,7 +3440,7 @@
 			pointer-events: none;
 		}
 
-		/* ============================== 2. CONTACT MENU (giuseart-nav / #contactNav) ============================== */
+		/* ==============================  2. CONTACT MENU (giuseart-nav / #contactNav) ============================== */
 
 		/* Hợp nhất các thuộc tính định vị và kiểu dáng chung của menu */
 		#contactNav.giuseart-nav {
@@ -3744,7 +3618,7 @@
 			}
 		}
 
-		/* ============================== 4. Tùy chỉnh nhỏ & Mobile ============================== */
+		/* ==============================  4. Tùy chỉnh nhỏ & Mobile ============================== */
 		.phone-mobile {
 			display: none;
 		}
@@ -4284,7 +4158,7 @@
 		/**=== Home page ===**/
 		/**====================**/
 
-		/** **/
+		/**  **/
 
 		/* Home tabs */
 		.home-tabs-custom {
@@ -4538,7 +4412,7 @@
 		}
 
 		/*==============================*/
-		/* BẢNG SẢN PHẨM */
+		/* BẢNG SẢN PHẨM                */
 		/*==============================*/
 
 		body.woocommerce-cart .shop_table.cart {
@@ -4653,7 +4527,7 @@
 		}
 
 		/*==============================*/
-		/* Ô SỐ LƯỢNG – NHÓM NÚT */
+		/* Ô SỐ LƯỢNG – NHÓM NÚT        */
 		/*==============================*/
 
 		body.woocommerce-cart .quantity.buttons_added {
@@ -4696,7 +4570,7 @@
 		}
 
 		/*==============================*/
-		/* CỘT TỔNG CỘNG */
+		/* CỘT TỔNG CỘNG                */
 		/*==============================*/
 
 		body.woocommerce-cart .cart_totals h2 {
@@ -4758,7 +4632,7 @@
 		}
 
 		/*==============================*/
-		/* NÚT TIẾN HÀNH THANH TOÁN */
+		/* NÚT TIẾN HÀNH THANH TOÁN     */
 		/*==============================*/
 
 		body.woocommerce-cart .wc-proceed-to-checkout a.checkout-button {
@@ -4791,7 +4665,7 @@
 		}
 
 		/*==============================*/
-		/* MÃ ƯU ĐÃI */
+		/* MÃ ƯU ĐÃI                    */
 		/*==============================*/
 
 		body.woocommerce-cart .checkout_coupon {
@@ -4834,7 +4708,7 @@
 		}
 
 		/*==============================*/
-		/* RESPONSIVE */
+		/* RESPONSIVE                   */
 		/*==============================*/
 
 		@media (max-width: 849px) {
@@ -4881,8 +4755,8 @@
 		}
 
 		/*******************************
-* MINI CART (Dropdown Giỏ hàng)
-*******************************/
+ * MINI CART (Dropdown Giỏ hàng)
+ *******************************/
 
 
 		/* Hộp dropdown phụ */
@@ -5102,8 +4976,8 @@
 		}
 
 		/****************
-* CHECKOUT PAGE
-****************/
+ * CHECKOUT PAGE
+ ****************/
 		body.woocommerce-checkout {
 			background: #f5f7fa;
 			font-family: "Inter", sans-serif;
@@ -5223,8 +5097,8 @@
 		}
 
 		/*******************************
-* CÁC PHẦN KHÁC TRONG CHECKOUT
-*******************************/
+ * CÁC PHẦN KHÁC TRONG CHECKOUT
+ *******************************/
 
 		/* Nhãn input */
 		.woocommerce-checkout label {
@@ -5389,8 +5263,8 @@
 		}
 
 		/***************
-* Responsive
-***************/
+ * Responsive
+ ***************/
 		@media (max-width: 849px) {
 			.woocommerce-checkout .row.pt-0 {
 				flex-direction: column;
@@ -5603,8 +5477,8 @@
 		}
 
 		/* ===========================
-Mua Nhanh
-=========================== */
+   Mua Nhanh
+   =========================== */
 		.mfp-wrap .devvn-popup-quickbuy,
 		.mfp-wrap .devvn-popup-quickbuy * {
 			box-sizing: border-box;
@@ -5929,7 +5803,7 @@ Mua Nhanh
 </head>
 
 <body
-	class="archive tax-product_cat term-ban-tho-treo-tuong term-23 logged-in admin-bar no-customize-support wp-theme-flatsome wp-child-theme-bt-nhat-tam theme-flatsome ot-vertical-menu ot-menu-show-home woocommerce woocommerce-page woocommerce-no-js full-width lightbox nav-dropdown-has-arrow nav-dropdown-has-shadow nav-dropdown-has-border mobile-submenu-slide mobile-submenu-slide-levels-2">
+	class="archive tax-product_cat term-ban-tho-treo-tuong term-23 wp-theme-flatsome wp-child-theme-bt-nhat-tam theme-flatsome ot-vertical-menu ot-menu-show-home woocommerce woocommerce-page woocommerce-no-js full-width lightbox nav-dropdown-has-arrow nav-dropdown-has-shadow nav-dropdown-has-border mobile-submenu-slide mobile-submenu-slide-levels-2">
 
 	<script>
 		// Hàm cập nhật padding right sidebar
@@ -5961,638 +5835,11 @@ Mua Nhanh
 			updatePadding();
 		});
 	</script>
-	<script type="text/javascript">
-		/* <![CDATA[ */
-
-		(function () {
-			var request, b = document.body, c = 'className', cs = 'customize-support', rcs = new RegExp('(^|\\s+)(no-)?' + cs + '(\\s+|$)');
-
-			request = true;
-			b[c] = b[c].replace(rcs, ' ');
-			// The customizer requires postMessage and CORS (if the site is cross domain).
-			b[c] += (window.postMessage && request ? ' ' : ' no-') + cs;
-		}());
-		//# sourceURL=wp_customize_support_script
-		/* ]]> */
-	</script>
-	<div id="wpadminbar" class="nojq nojs">
-		<div class="quicklinks" id="wp-toolbar" role="navigation" aria-label="Thanh công cụ">
-			<ul role='menu' id='wp-admin-bar-root-default' class="ab-top-menu">
-				<li role='group' id='wp-admin-bar-wp-logo' class="menupop"><a class='ab-item' role="menuitem"
-						aria-expanded="false" href='https://banthotreotuong.com/wp-admin/about.php'><span
-							class="ab-icon" aria-hidden="true"></span><span class="screen-reader-text">Giới thiệu về
-							WordPress</span></a>
-					<div class="ab-sub-wrapper">
-						<ul role='menu' aria-label='Giới thiệu về WordPress' id='wp-admin-bar-wp-logo-default'
-							class="ab-submenu">
-							<li role='group' id='wp-admin-bar-about'><a class='ab-item' role="menuitem"
-									href='https://banthotreotuong.com/wp-admin/about.php'>Giới thiệu về WordPress</a>
-							</li>
-							<li role='group' id='wp-admin-bar-contribute'><a class='ab-item' role="menuitem"
-									href='https://banthotreotuong.com/wp-admin/contribute.php'>Tham gia</a></li>
-						</ul>
-						<ul role='menu' aria-label='Giới thiệu về WordPress' id='wp-admin-bar-wp-logo-external'
-							class="ab-sub-secondary ab-submenu">
-							<li role='group' id='wp-admin-bar-wporg'><a class='ab-item' role="menuitem"
-									href='https://vi.wordpress.org/'>WordPress.org</a></li>
-							<li role='group' id='wp-admin-bar-documentation'><a class='ab-item' role="menuitem"
-									href='https://wordpress.org/documentation/'>Tài liệu</a></li>
-							<li role='group' id='wp-admin-bar-learn'><a class='ab-item' role="menuitem"
-									href='https://learn.wordpress.org/'>Học WordPress</a></li>
-							<li role='group' id='wp-admin-bar-support-forums'><a class='ab-item' role="menuitem"
-									href='https://wordpress.org/support/forums/'>Hỗ trợ</a></li>
-							<li role='group' id='wp-admin-bar-feedback'><a class='ab-item' role="menuitem"
-									href='https://wordpress.org/support/forum/requests-and-feedback'>Thông tin phản
-									hồi</a></li>
-						</ul>
-					</div>
-				</li>
-				<li role='group' id='wp-admin-bar-site-name' class="menupop"><a class='ab-item' role="menuitem"
-						aria-expanded="false" href='https://banthotreotuong.com/wp-admin/'>Bàn thờ treo tường</a>
-					<div class="ab-sub-wrapper">
-						<ul role='menu' aria-label='Bàn thờ treo tường' id='wp-admin-bar-site-name-default'
-							class="ab-submenu">
-							<li role='group' id='wp-admin-bar-dashboard'><a class='ab-item' role="menuitem"
-									href='https://banthotreotuong.com/wp-admin/'>Bảng điều khiển</a></li>
-							<li role='group' id='wp-admin-bar-plugins'><a class='ab-item' role="menuitem"
-									href='https://banthotreotuong.com/wp-admin/plugins.php'>Plugins</a></li>
-						</ul>
-						<ul role='menu' aria-label='Bàn thờ treo tường' id='wp-admin-bar-appearance' class="ab-submenu">
-							<li role='group' id='wp-admin-bar-themes'><a class='ab-item' role="menuitem"
-									href='https://banthotreotuong.com/wp-admin/themes.php'>Giao diện</a></li>
-							<li role='group' id='wp-admin-bar-widgets'><a class='ab-item' role="menuitem"
-									href='https://banthotreotuong.com/wp-admin/widgets.php'>Cấu hình cột tiện ích</a>
-							</li>
-							<li role='group' id='wp-admin-bar-menus'><a class='ab-item' role="menuitem"
-									href='https://banthotreotuong.com/wp-admin/nav-menus.php'>Thiết lập Menu</a></li>
-						</ul>
-					</div>
-				</li>
-				<li role='group' id='wp-admin-bar-woocommerce-site-visibility-badge'
-					class="woocommerce-site-status-badge-live"><a class='ab-item' role="menuitem"
-						href='https://banthotreotuong.com/wp-admin/admin.php?page=wc-settings&#038;tab=site-visibility'>Đang
-						bán</a></li>
-				<li role='group' id='wp-admin-bar-flatsome_panel' class="menupop"><a class='ab-item' role="menuitem"
-						aria-expanded="false" href='https://banthotreotuong.com/wp-admin/admin.php?page=flatsome-panel'>
-						<svg style="width:16px; margin-top:-3px; opacity:.9; height:16px;vertical-align:middle;"
-							width="438" height="438" viewBox="0 0 438 438" fill="none"
-							xmlns="http://www.w3.org/2000/svg">
-							<path
-								d="M218.505 437.013V375.737L169.875 327.108L218.505 278.476V217.2L139.236 296.471L61.2764 218.51L218.505 61.2804V0.00683594L0 218.51L218.505 437.013Z"
-								fill="currentColor" />
-							<path opacity="0.5"
-								d="M218.507 61.2759L375.735 218.505L297.776 296.464L218.507 217.198V278.472L267.139 327.103L218.507 375.732V437.006L328.413 327.103L437.012 218.505L218.507 0V61.2759Z"
-								fill="currentColor" />
-						</svg>
-						Flatsome</a>
-					<div class="ab-sub-wrapper">
-						<ul role='menu' id='wp-admin-bar-flatsome_panel-default' class="ab-submenu">
-							<li role='group' id='wp-admin-bar-theme_options' class="menupop"><a class='ab-item'
-									role="menuitem" aria-expanded="false"
-									href='https://banthotreotuong.com/wp-admin/customize.php?url=https://banthotreotuong.com/ban-tho-treo-tuong-2-tang-kem-vach-ngan/&#038;autofocus%5Bpanel%5D='><span
-										class="wp-admin-bar-arrow" aria-hidden="true"></span><span
-										class="dashicons dashicons-admin-generic"
-										style="font: normal 20px/1 'dashicons';-webkit-font-smoothing: antialiased;padding-right: 4px;margin-top:3px;"></span>Theme
-									Options</a>
-								<div class="ab-sub-wrapper">
-									<ul role='menu' id='wp-admin-bar-theme_options-default' class="ab-submenu">
-										<li role='group' id='wp-admin-bar-options_header' class="menupop"><a
-												class='ab-item' role="menuitem" aria-expanded="false"
-												href='https://banthotreotuong.com/wp-admin/customize.php?url=https://banthotreotuong.com/ban-tho-treo-tuong-2-tang-kem-vach-ngan/&#038;autofocus%5Bpanel%5D=header'><span
-													class="wp-admin-bar-arrow" aria-hidden="true"></span><span
-													class="dashicons dashicons-arrow-up-alt dashicons-header"
-													style="font: normal 20px/1 'dashicons';-webkit-font-smoothing: antialiased;padding-right: 4px;margin-top:3px;"></span>
-												Header</a>
-											<div class="ab-sub-wrapper">
-												<ul role='menu' id='wp-admin-bar-options_header-default'
-													class="ab-submenu">
-													<li role='group' id='wp-admin-bar-options_header_presets'><a
-															class='ab-item' role="menuitem"
-															href='https://banthotreotuong.com/wp-admin/customize.php?url=https://banthotreotuong.com/ban-tho-treo-tuong-2-tang-kem-vach-ngan/&#038;autofocus%5Bsection%5D=header-presets'>Presets</a>
-													</li>
-													<li role='group' id='wp-admin-bar-options_header_logo'><a
-															class='ab-item' role="menuitem"
-															href='https://banthotreotuong.com/wp-admin/customize.php?url=https://banthotreotuong.com/ban-tho-treo-tuong-2-tang-kem-vach-ngan/&#038;autofocus%5Bsection%5D=title_tagline'>Logo
-															& Site Identity</a></li>
-													<li role='group' id='wp-admin-bar-options_header_top'><a
-															class='ab-item' role="menuitem"
-															href='https://banthotreotuong.com/wp-admin/customize.php?url=https://banthotreotuong.com/ban-tho-treo-tuong-2-tang-kem-vach-ngan/&#038;autofocus%5Bsection%5D=top_bar'>Top
-															Bar</a></li>
-													<li role='group' id='wp-admin-bar-options_header_main'><a
-															class='ab-item' role="menuitem"
-															href='https://banthotreotuong.com/wp-admin/customize.php?url=https://banthotreotuong.com/ban-tho-treo-tuong-2-tang-kem-vach-ngan/&#038;autofocus%5Bsection%5D=main_bar'>Header
-															Main</a></li>
-													<li role='group' id='wp-admin-bar-options_header_bottom'><a
-															class='ab-item' role="menuitem"
-															href='https://banthotreotuong.com/wp-admin/customize.php?url=https://banthotreotuong.com/ban-tho-treo-tuong-2-tang-kem-vach-ngan/&#038;autofocus%5Bsection%5D=bottom_bar'>
-															Header Bottom</a></li>
-													<li role='group' id='wp-admin-bar-options_header_mobile'><a
-															class='ab-item' role="menuitem"
-															href='https://banthotreotuong.com/wp-admin/customize.php?url=https://banthotreotuong.com/ban-tho-treo-tuong-2-tang-kem-vach-ngan/&#038;autofocus%5Bsection%5D=header_mobile'>
-															Header Mobile</a></li>
-													<li role='group' id='wp-admin-bar-options_header_sticky'><a
-															class='ab-item' role="menuitem"
-															href='https://banthotreotuong.com/wp-admin/customize.php?url=https://banthotreotuong.com/ban-tho-treo-tuong-2-tang-kem-vach-ngan/&#038;autofocus%5Bsection%5D=header_sticky'>
-															Sticky Header</a></li>
-													<li role='group' id='wp-admin-bar-options_header_dropdown'><a
-															class='ab-item' role="menuitem"
-															href='https://banthotreotuong.com/wp-admin/customize.php?url=https://banthotreotuong.com/ban-tho-treo-tuong-2-tang-kem-vach-ngan/&#038;autofocus%5Bsection%5D=header_dropdown'>Dropdown
-															Style</a></li>
-												</ul>
-											</div>
-										</li>
-										<li role='group' id='wp-admin-bar-options_layout'><a class='ab-item'
-												role="menuitem"
-												href='https://banthotreotuong.com/wp-admin/customize.php?url=https://banthotreotuong.com/ban-tho-treo-tuong-2-tang-kem-vach-ngan/&#038;autofocus%5Bsection%5D=layout'><span
-													class="dashicons dashicons-editor-table"
-													style="font: normal 20px/1 'dashicons';-webkit-font-smoothing: antialiased;padding-right: 4px;margin-top:3px;"></span>
-												Layout</a></li>
-										<li role='group' id='wp-admin-bar-options_static_front_page'><a class='ab-item'
-												role="menuitem"
-												href='https://banthotreotuong.com/wp-admin/customize.php?url=https://banthotreotuong.com/ban-tho-treo-tuong-2-tang-kem-vach-ngan/&#038;autofocus%5Bsection%5D=static_front_page'><span
-													class="dashicons dashicons-admin-home"
-													style="font: normal 20px/1 'dashicons';-webkit-font-smoothing: antialiased;padding-right: 4px;margin-top:3px;"></span>
-												Homepage</a></li>
-										<li role='group' id='wp-admin-bar-options_style' class="menupop"><a
-												class='ab-item' role="menuitem" aria-expanded="false"
-												href='https://banthotreotuong.com/wp-admin/customize.php?url=https://banthotreotuong.com/ban-tho-treo-tuong-2-tang-kem-vach-ngan/&#038;autofocus%5Bpanel%5D=style'><span
-													class="wp-admin-bar-arrow" aria-hidden="true"></span><span
-													class="dashicons dashicons-admin-appearance"
-													style="font: normal 20px/1 'dashicons';-webkit-font-smoothing: antialiased;padding-right: 4px;margin-top:3px;"></span>
-												Style</a>
-											<div class="ab-sub-wrapper">
-												<ul role='menu' id='wp-admin-bar-options_style-default'
-													class="ab-submenu">
-													<li role='group' id='wp-admin-bar-options_style_colors'><a
-															class='ab-item' role="menuitem"
-															href='https://banthotreotuong.com/wp-admin/customize.php?url=https://banthotreotuong.com/ban-tho-treo-tuong-2-tang-kem-vach-ngan/&#038;autofocus%5Bsection%5D=colors'>Colors</a>
-													</li>
-													<li role='group' id='wp-admin-bar-options_style_global'><a
-															class='ab-item' role="menuitem"
-															href='https://banthotreotuong.com/wp-admin/customize.php?url=https://banthotreotuong.com/ban-tho-treo-tuong-2-tang-kem-vach-ngan/&#038;autofocus%5Bsection%5D=global-styles'>Global
-															Styles</a></li>
-													<li role='group' id='wp-admin-bar-options_style_type'><a
-															class='ab-item' role="menuitem"
-															href='https://banthotreotuong.com/wp-admin/customize.php?url=https://banthotreotuong.com/ban-tho-treo-tuong-2-tang-kem-vach-ngan/&#038;autofocus%5Bsection%5D=type'>Typography</a>
-													</li>
-													<li role='group' id='wp-admin-bar-options_style_css'><a
-															class='ab-item' role="menuitem"
-															href='https://banthotreotuong.com/wp-admin/customize.php?url=https://banthotreotuong.com/ban-tho-treo-tuong-2-tang-kem-vach-ngan/&#038;autofocus%5Bsection%5D=custom-css'>Custom
-															CSS</a></li>
-													<li role='group' id='wp-admin-bar-options_style_lightbox'><a
-															class='ab-item' role="menuitem"
-															href='https://banthotreotuong.com/wp-admin/customize.php?url=https://banthotreotuong.com/ban-tho-treo-tuong-2-tang-kem-vach-ngan/&#038;autofocus%5Bsection%5D=lightbox'>Drawer
-															& Lightbox</a></li>
-												</ul>
-											</div>
-										</li>
-										<li role='group' id='wp-admin-bar-options_shop' class="menupop"><a
-												class='ab-item' role="menuitem" aria-expanded="false"
-												href='https://banthotreotuong.com/wp-admin/customize.php?url=https://banthotreotuong.com/ban-tho-treo-tuong-2-tang-kem-vach-ngan/&#038;autofocus%5Bpanel%5D=woocommerce'><span
-													class="wp-admin-bar-arrow" aria-hidden="true"></span><span
-													class="dashicons dashicons-cart"
-													style="font: normal 20px/1 'dashicons';-webkit-font-smoothing: antialiased;padding-right: 4px;margin-top:3px;"></span>&nbsp;WooCommerce</a>
-											<div class="ab-sub-wrapper">
-												<ul role='menu' id='wp-admin-bar-options_shop-default'
-													class="ab-submenu">
-													<li role='group' id='wp-admin-bar-options_shop_store_notice'><a
-															class='ab-item' role="menuitem"
-															href='https://banthotreotuong.com/wp-admin/customize.php?url=https://banthotreotuong.com/ban-tho-treo-tuong-2-tang-kem-vach-ngan/&#038;autofocus%5Bsection%5D=woocommerce_store_notice'>Thông
-															báo của cửa hàng</a></li>
-													<li role='group' id='wp-admin-bar-options_shop_category_page'><a
-															class='ab-item' role="menuitem"
-															href='https://banthotreotuong.com/wp-admin/customize.php?url=https://banthotreotuong.com/ban-tho-treo-tuong-2-tang-kem-vach-ngan/&#038;autofocus%5Bsection%5D=woocommerce_product_catalog'>Danh
-															mục sản phẩm</a></li>
-													<li role='group' id='wp-admin-bar-options_shop_product_page'><a
-															class='ab-item' role="menuitem"
-															href='https://banthotreotuong.com/wp-admin/customize.php?url=https://banthotreotuong.com/ban-tho-treo-tuong-2-tang-kem-vach-ngan/&#038;autofocus%5Bsection%5D=product-page'>Product
-															Page</a></li>
-													<li role='group' id='wp-admin-bar-options_shop_my_account'><a
-															class='ab-item' role="menuitem"
-															href='https://banthotreotuong.com/wp-admin/customize.php?url=https://banthotreotuong.com/ban-tho-treo-tuong-2-tang-kem-vach-ngan/&#038;autofocus%5Bsection%5D=fl-my-account'>My
-															Account</a></li>
-													<li role='group' id='wp-admin-bar-options_shop_payment_icons'><a
-															class='ab-item' role="menuitem"
-															href='https://banthotreotuong.com/wp-admin/customize.php?url=https://banthotreotuong.com/ban-tho-treo-tuong-2-tang-kem-vach-ngan/&#038;autofocus%5Bsection%5D=payment-icons'>Payment
-															Icons</a></li>
-													<li role='group' id='wp-admin-bar-options_shop_product_images'><a
-															class='ab-item' role="menuitem"
-															href='https://banthotreotuong.com/wp-admin/customize.php?url=https://banthotreotuong.com/ban-tho-treo-tuong-2-tang-kem-vach-ngan/&#038;autofocus%5Bsection%5D=woocommerce_product_images'>Ảnh
-															sản phẩm</a></li>
-													<li role='group' id='wp-admin-bar-options_shop_checkout'><a
-															class='ab-item' role="menuitem"
-															href='https://banthotreotuong.com/wp-admin/customize.php?url=https://banthotreotuong.com/ban-tho-treo-tuong-2-tang-kem-vach-ngan/&#038;autofocus%5Bsection%5D=woocommerce_checkout'>Checkout</a>
-													</li>
-													<li role='group' id='wp-admin-bar-options_shop_cart'><a
-															class='ab-item' role="menuitem"
-															href='https://banthotreotuong.com/wp-admin/customize.php?url=https://banthotreotuong.com/ban-tho-treo-tuong-2-tang-kem-vach-ngan/&#038;autofocus%5Bsection%5D=cart-checkout'>Cart</a>
-													</li>
-													<li role='group' id='wp-admin-bar-options_advanced_woocommerce_2'><a
-															class='ab-item' role="menuitem"
-															href='https://banthotreotuong.com/wp-admin/admin.php?page=optionsframework&#038;tab=of-option-woocommerce'>Advanced</a>
-													</li>
-												</ul>
-											</div>
-										</li>
-										<li role='group' id='wp-admin-bar-options_pages'><a class='ab-item'
-												role="menuitem"
-												href='https://banthotreotuong.com/wp-admin/customize.php?url=https://banthotreotuong.com/ban-tho-treo-tuong-2-tang-kem-vach-ngan/&#038;autofocus%5Bsection%5D=pages'><span
-													class="dashicons dashicons-admin-page"
-													style="font: normal 20px/1 'dashicons';-webkit-font-smoothing: antialiased;padding-right: 4px;margin-top:3px;"></span>
-												Pages</a></li>
-										<li role='group' id='wp-admin-bar-options_blog'><a class='ab-item'
-												role="menuitem"
-												href='https://banthotreotuong.com/wp-admin/customize.php?url=https://banthotreotuong.com/ban-tho-treo-tuong-2-tang-kem-vach-ngan/&#038;autofocus%5Bpanel%5D=blog'><span
-													class="dashicons dashicons-edit"
-													style="font: normal 20px/1 'dashicons';-webkit-font-smoothing: antialiased;padding-right: 4px;margin-top:3px;"></span>
-												Blog</a></li>
-										<li role='group' id='wp-admin-bar-options_portfolio'><a class='ab-item'
-												role="menuitem"
-												href='https://banthotreotuong.com/wp-admin/customize.php?url=https://banthotreotuong.com/ban-tho-treo-tuong-2-tang-kem-vach-ngan/&#038;autofocus%5Bsection%5D=fl-portfolio'><span
-													class="dashicons dashicons-portfolio"
-													style="font: normal 20px/1 'dashicons';-webkit-font-smoothing: antialiased;padding-right: 4px;margin-top:3px;"></span>
-												Portfolio</a></li>
-										<li role='group' id='wp-admin-bar-options_footer'><a class='ab-item'
-												role="menuitem"
-												href='https://banthotreotuong.com/wp-admin/customize.php?url=https://banthotreotuong.com/ban-tho-treo-tuong-2-tang-kem-vach-ngan/&#038;autofocus%5Bsection%5D=footer'><span
-													class="dashicons dashicons-arrow-down-alt"
-													style="font: normal 20px/1 'dashicons';-webkit-font-smoothing: antialiased;padding-right: 4px;margin-top:3px;"></span>
-												Footer</a></li>
-										<li role='group' id='wp-admin-bar-options_menus' class="menupop"><a
-												class='ab-item' role="menuitem" aria-expanded="false"
-												href='https://banthotreotuong.com/wp-admin/customize.php?url=https://banthotreotuong.com/ban-tho-treo-tuong-2-tang-kem-vach-ngan/&#038;autofocus%5Bpanel%5D=nav_menus'><span
-													class="wp-admin-bar-arrow" aria-hidden="true"></span><span
-													class="dashicons dashicons-menu "
-													style="font: normal 20px/1 'dashicons';-webkit-font-smoothing: antialiased;padding-right: 4px;margin-top:3px;"></span>
-												Menus</a>
-											<div class="ab-sub-wrapper">
-												<ul role='menu' id='wp-admin-bar-options_menus-default'
-													class="ab-submenu">
-													<li role='group' id='wp-admin-bar-options_menus_backend'><a
-															class='ab-item' role="menuitem"
-															href='https://banthotreotuong.com/wp-admin/nav-menus.php'>Back-end
-															editor</a></li>
-												</ul>
-											</div>
-										</li>
-										<li role='group' id='wp-admin-bar-options_widgets' class="menupop"><a
-												class='ab-item' role="menuitem" aria-expanded="false"
-												href='https://banthotreotuong.com/wp-admin/customize.php?url=https://banthotreotuong.com/ban-tho-treo-tuong-2-tang-kem-vach-ngan/&#038;autofocus%5Bpanel%5D=widgets'><span
-													class="wp-admin-bar-arrow" aria-hidden="true"></span><span
-													class="dashicons dashicons-welcome-widgets-menus"
-													style="font: normal 20px/1 'dashicons';-webkit-font-smoothing: antialiased;padding-right: 4px;margin-top:3px;"></span>
-												Widgets</a>
-											<div class="ab-sub-wrapper">
-												<ul role='menu' id='wp-admin-bar-options_widgets-default'
-													class="ab-submenu">
-													<li role='group' id='wp-admin-bar-options_widgets_backend'><a
-															class='ab-item' role="menuitem"
-															href='https://banthotreotuong.com/wp-admin/widgets.php'>Back-end
-															editor</a></li>
-												</ul>
-											</div>
-										</li>
-										<li role='group' id='wp-admin-bar-options_share'><a class='ab-item'
-												role="menuitem"
-												href='https://banthotreotuong.com/wp-admin/customize.php?url=https://banthotreotuong.com/ban-tho-treo-tuong-2-tang-kem-vach-ngan/&#038;autofocus%5Bsection%5D=share'><span
-													class="dashicons dashicons-share"
-													style="font: normal 20px/1 'dashicons';-webkit-font-smoothing: antialiased;padding-right: 4px;margin-top:3px;"></span>
-												Share</a></li>
-										<li role='group' id='wp-admin-bar-options_notifications'><a class='ab-item'
-												role="menuitem"
-												href='https://banthotreotuong.com/wp-admin/customize.php?url=https://banthotreotuong.com/ban-tho-treo-tuong-2-tang-kem-vach-ngan/&#038;autofocus%5Bsection%5D=notifications'><span
-													class="dashicons dashicons-testimonial"
-													style="font: normal 20px/1 'dashicons';-webkit-font-smoothing: antialiased;padding-right: 4px;margin-top:3px;"></span>
-												Notifications</a></li>
-										<li role='group' id='wp-admin-bar-options_reset'><a class='ab-item'
-												role="menuitem"
-												href='https://banthotreotuong.com/wp-admin/customize.php?url=https://banthotreotuong.com/ban-tho-treo-tuong-2-tang-kem-vach-ngan/&#038;autofocus%5Bsection%5D=advanced'><span
-													class="dashicons dashicons-admin-generic"
-													style="font: normal 20px/1 'dashicons';-webkit-font-smoothing: antialiased;padding-right: 4px;margin-top:3px;"></span>
-												Reset</a></li>
-									</ul>
-								</div>
-							</li>
-							<li role='group' id='wp-admin-bar-options_advanced' class="menupop"><a class='ab-item'
-									role="menuitem" aria-expanded="false"
-									href='https://banthotreotuong.com/wp-admin/admin.php?page=optionsframework&#038;tab='><span
-										class="wp-admin-bar-arrow" aria-hidden="true"></span><span
-										class="dashicons dashicons-admin-tools"
-										style="font: normal 20px/1 'dashicons';-webkit-font-smoothing: antialiased;padding-right: 4px;margin-top:3px;"></span>Advanced</a>
-								<div class="ab-sub-wrapper">
-									<ul role='menu' id='wp-admin-bar-options_advanced-default' class="ab-submenu">
-										<li role='group' id='wp-admin-bar-options_advanced_custom_scripts'><a
-												class='ab-item' role="menuitem"
-												href='https://banthotreotuong.com/wp-admin/admin.php?page=optionsframework&#038;tab=of-option-globalsettings'>Global
-												Settings</a></li>
-										<li role='group' id='wp-admin-bar-options_advanced_custom_css'><a
-												class='ab-item' role="menuitem"
-												href='https://banthotreotuong.com/wp-admin/admin.php?page=optionsframework&#038;tab=of-option-customcss'>Custom
-												CSS</a></li>
-										<li role='group' id='wp-admin-bar-options_advanced_performance'><a
-												class='ab-item' role="menuitem"
-												href='https://banthotreotuong.com/wp-admin/admin.php?page=optionsframework&#038;tab=of-option-performance'>Performance</a>
-										</li>
-										<li role='group' id='wp-admin-bar-options_advanced_content_delivery'><a
-												class='ab-item' role="menuitem"
-												href='https://banthotreotuong.com/wp-admin/admin.php?page=optionsframework&#038;tab=of-option-contentdelivery'>Content
-												Delivery</a></li>
-										<li role='group' id='wp-admin-bar-options_advanced_site_loader'><a
-												class='ab-item' role="menuitem"
-												href='https://banthotreotuong.com/wp-admin/admin.php?page=optionsframework&#038;tab=of-option-siteloader'>Site
-												Loader</a></li>
-										<li role='group' id='wp-admin-bar-options_advanced_site_search'><a
-												class='ab-item' role="menuitem"
-												href='https://banthotreotuong.com/wp-admin/admin.php?page=optionsframework&#038;tab=of-option-sitesearch'>Site
-												Search</a></li>
-										<li role='group' id='wp-admin-bar-options_advanced_instagram_api'><a
-												class='ab-item' role="menuitem"
-												href='https://banthotreotuong.com/wp-admin/admin.php?page=optionsframework&#038;tab=of-option-instagram'>Instagram</a>
-										</li>
-										<li role='group' id='wp-admin-bar-options_advanced_google_apis'><a
-												class='ab-item' role="menuitem"
-												href='https://banthotreotuong.com/wp-admin/admin.php?page=optionsframework&#038;tab=of-option-googleapis'>Google
-												APIs</a></li>
-										<li role='group' id='wp-admin-bar-options_advanced_maintenance'><a
-												class='ab-item' role="menuitem"
-												href='https://banthotreotuong.com/wp-admin/admin.php?page=optionsframework&#038;tab=of-option-maintenancemode'>Maintenance</a>
-										</li>
-										<li role='group' id='wp-admin-bar-options_advanced_404'><a class='ab-item'
-												role="menuitem"
-												href='https://banthotreotuong.com/wp-admin/admin.php?page=optionsframework&#038;tab=of-option-404page'>404
-												Page</a></li>
-										<li role='group' id='wp-admin-bar-options_advanced_woocommerce'><a
-												class='ab-item' role="menuitem"
-												href='https://banthotreotuong.com/wp-admin/admin.php?page=optionsframework&#038;tab=of-option-woocommerce'>WooCommerce</a>
-										</li>
-										<li role='group' id='wp-admin-bar-options_advanced_catalog_mode'><a
-												class='ab-item' role="menuitem"
-												href='https://banthotreotuong.com/wp-admin/admin.php?page=optionsframework&#038;tab=of-option-catalogmode'>Catalog
-												Mode</a></li>
-										<li role='group' id='wp-admin-bar-options_advanced_portfolio'><a class='ab-item'
-												role="menuitem"
-												href='https://banthotreotuong.com/wp-admin/admin.php?page=optionsframework&#038;tab=of-option-portfolio'>Portfolio</a>
-										</li>
-										<li role='group' id='wp-admin-bar-options_advanced_mobile'><a class='ab-item'
-												role="menuitem"
-												href='https://banthotreotuong.com/wp-admin/admin.php?page=optionsframework&#038;tab=of-option-mobile'>Mobile</a>
-										</li>
-										<li role='group' id='wp-admin-bar-options_advanced_integrations'><a
-												class='ab-item' role="menuitem"
-												href='https://banthotreotuong.com/wp-admin/admin.php?page=optionsframework&#038;tab=of-option-integrations'>Integrations</a>
-										</li>
-										<li role='group' id='wp-admin-bar-options_advanced_updates'><a class='ab-item'
-												role="menuitem"
-												href='https://banthotreotuong.com/wp-admin/admin.php?page=optionsframework&#038;tab=of-option-updates'>Updates</a>
-										</li>
-										<li role='group' id='wp-admin-bar-options_advanced_backup'><a class='ab-item'
-												role="menuitem"
-												href='https://banthotreotuong.com/wp-admin/admin.php?page=optionsframework&#038;tab=of-option-backupandimport'>Backup
-												/ Import</a></li>
-									</ul>
-								</div>
-							</li>
-							<li role='group' id='wp-admin-bar-flatsome_panel_license'><a class='ab-item' role="menuitem"
-									href='https://banthotreotuong.com/wp-admin/admin.php?page=flatsome-panel'>Theme
-									Registration</a></li>
-							<li role='group' id='wp-admin-bar-flatsome_panel_support'><a class='ab-item' role="menuitem"
-									href='https://banthotreotuong.com/wp-admin/admin.php?page=flatsome-panel-support'>Help
-									& Guides</a></li>
-							<li role='group' id='wp-admin-bar-flatsome_panel_status'><a class='ab-item' role="menuitem"
-									href='https://banthotreotuong.com/wp-admin/admin.php?page=flatsome-panel-status'>Status</a>
-							</li>
-							<li role='group' id='wp-admin-bar-flatsome_panel_features'><a class='ab-item'
-									role="menuitem"
-									href='https://banthotreotuong.com/wp-admin/admin.php?page=flatsome-panel-features'>Features</a>
-							</li>
-							<li role='group' id='wp-admin-bar-flatsome_panel_changelog'><a class='ab-item'
-									role="menuitem"
-									href='https://banthotreotuong.com/wp-admin/admin.php?page=flatsome-panel-changelog'>Change
-									log</a></li>
-							<li role='group' id='wp-admin-bar-flatsome_panel_setup_wizard'><a class='ab-item'
-									role="menuitem"
-									href='https://banthotreotuong.com/wp-admin/admin.php?page=flatsome-setup'>Setup
-									Wizard</a></li>
-						</ul>
-					</div>
-				</li>
-				<li role='group' id='wp-admin-bar-customize' class="menupop hide-if-no-customize"><a class='ab-item'
-						role="menuitem" aria-expanded="false"
-						href='https://banthotreotuong.com/wp-admin/customize.php?url=https%3A%2F%2Fbanthotreotuong.com%2Fban-tho-treo-tuong%2F'>Sửa
-						giao diện</a>
-					<div class="ab-sub-wrapper">
-						<ul role='menu' id='wp-admin-bar-customize-default' class="ab-submenu">
-							<li role='group' id='wp-admin-bar-admin_bar_helper_flatsome'><a class='ab-item'
-									role="menuitem"
-									href='https://banthotreotuong.com/wp-admin/customize.php?url=https://banthotreotuong.com/ban-tho-treo-tuong-2-tang-kem-vach-ngan/&#038;autofocus%5Bsection%5D=woocommerce_product_catalog'>Danh
-									mục sản phẩm</a></li>
-						</ul>
-					</div>
-				</li>
-				<li role='group' id='wp-admin-bar-updates'><a class='ab-item' role="menuitem"
-						href='https://banthotreotuong.com/wp-admin/update-core.php'><span class="ab-icon"
-							aria-hidden="true"></span><span class="ab-label" aria-hidden="true">17</span><span
-							class="screen-reader-text updates-available-text">17 cập nhật mới</span></a></li>
-				<li role='group' id='wp-admin-bar-comments'><a class='ab-item' role="menuitem"
-						href='https://banthotreotuong.com/wp-admin/edit-comments.php'><span class="ab-icon"
-							aria-hidden="true"></span><span class="ab-label awaiting-mod pending-count count-42"
-							aria-hidden="true">42</span><span class="screen-reader-text comments-in-moderation-text">42
-							bình luận cần kiểm duyệt</span></a></li>
-				<li role='group' id='wp-admin-bar-new-content' class="menupop"><a class='ab-item' role="menuitem"
-						aria-expanded="false" href='https://banthotreotuong.com/wp-admin/post-new.php'><span
-							class="ab-icon" aria-hidden="true"></span><span class="ab-label">Tạo mới</span></a>
-					<div class="ab-sub-wrapper">
-						<ul role='menu' aria-label='Tạo mới' id='wp-admin-bar-new-content-default' class="ab-submenu">
-							<li role='group' id='wp-admin-bar-new-post'><a class='ab-item' role="menuitem"
-									href='https://banthotreotuong.com/wp-admin/post-new.php'>Bài viết</a></li>
-							<li role='group' id='wp-admin-bar-new-media'><a class='ab-item' role="menuitem"
-									href='https://banthotreotuong.com/wp-admin/media-new.php'>Tệp tin</a></li>
-							<li role='group' id='wp-admin-bar-new-page'><a class='ab-item' role="menuitem"
-									href='https://banthotreotuong.com/wp-admin/post-new.php?post_type=page'>Trang</a>
-							</li>
-							<li role='group' id='wp-admin-bar-new-blocks'><a class='ab-item' role="menuitem"
-									href='https://banthotreotuong.com/wp-admin/post-new.php?post_type=blocks'>Block</a>
-							</li>
-							<li role='group' id='wp-admin-bar-new-accordions'><a class='ab-item' role="menuitem"
-									href='https://banthotreotuong.com/wp-admin/post-new.php?post_type=accordions'>Accordions</a>
-							</li>
-							<li role='group' id='wp-admin-bar-new-product'><a class='ab-item' role="menuitem"
-									href='https://banthotreotuong.com/wp-admin/post-new.php?post_type=product'>Sản
-									phẩm</a></li>
-							<li role='group' id='wp-admin-bar-new-shop_order'><a class='ab-item' role="menuitem"
-									href='https://banthotreotuong.com/wp-admin/post-new.php?post_type=shop_order'>Đặt
-									hàng</a></li>
-							<li role='group' id='wp-admin-bar-new-shop_coupon'><a class='ab-item' role="menuitem"
-									href='https://banthotreotuong.com/wp-admin/post-new.php?post_type=shop_coupon'>Mã ưu
-									đãi</a></li>
-							<li role='group' id='wp-admin-bar-new-featured_item'><a class='ab-item' role="menuitem"
-									href='https://banthotreotuong.com/wp-admin/post-new.php?post_type=featured_item'>Portfolio</a>
-							</li>
-							<li role='group' id='wp-admin-bar-new-user'><a class='ab-item' role="menuitem"
-									href='https://banthotreotuong.com/wp-admin/user-new.php'>Thành viên</a></li>
-						</ul>
-					</div>
-				</li>
-				<li role='group' id='wp-admin-bar-edit'><a class='ab-item' role="menuitem"
-						href='https://banthotreotuong.com/wp-admin/term.php?taxonomy=product_cat&#038;tag_ID=23&#038;post_type=product'>Sửa
-						danh mục</a></li>
-				<li role='group' id='wp-admin-bar-rank-math' class="menupop"><a class='ab-item' role="menuitem"
-						aria-expanded="false" href='https://banthotreotuong.com/wp-admin/admin.php?page=rank-math'
-						title='Bảng tổng quan Rank Math'><span class="rank-math-icon"><svg viewBox="0 0 462.03 462.03"
-								xmlns="http://www.w3.org/2000/svg" width="20">
-								<g>
-									<path
-										d="m462 234.84-76.17 3.43 13.43 21-127 81.18-126-52.93-146.26 60.97 10.14 24.34 136.1-56.71 128.57 54 138.69-88.61 13.43 21z" />
-									<path
-										d="m54.1 312.78 92.18-38.41 4.49 1.89v-54.58h-96.67zm210.9-223.57v235.05l7.26 3 89.43-57.05v-181zm-105.44 190.79 96.67 40.62v-165.19h-96.67z" />
-								</g>
-							</svg></span><span class="rank-math-text">Rank Math SEO</span></a>
-					<div class="ab-sub-wrapper">
-						<ul role='menu' id='wp-admin-bar-rank-math-default' class="ab-submenu">
-							<li role='group' id='wp-admin-bar-rank-math-dashboard'><a class='ab-item' role="menuitem"
-									href='https://banthotreotuong.com/wp-admin/admin.php?page=rank-math'
-									title='Bảng tổng quan'>Bảng tổng quan</a></li>
-							<li role='group' id='wp-admin-bar-rank-math-analytics'><a class='ab-item' role="menuitem"
-									href='https://banthotreotuong.com/wp-admin/admin.php?page=rank-math-analytics'
-									title='Xem xét phân tích và sơ đồ trang web'>Phân tích<span
-										class="rm-menu-new update-plugins"
-										style="background: #ed5e5e;margin-left: 5px;min-width: 10px;height: 10px;margin-bottom: -1px;display: inline-block;border-radius: 5px;"><span
-											class="plugin-count"></span></span></a></li>
-							<li role='group' id='wp-admin-bar-rank-math-tax'><a class='ab-item' role="menuitem"
-									href='https://banthotreotuong.com/wp-admin/admin.php?page=rank-math-options-titles&#038;view=taxonomy-product_cat'
-									title='Chỉnh sửa cài đặt SEO cho trang lưu trữ này'>Cài đặt SEO cho Danh mục sản
-									phẩm</a></li>
-							<li role='group' id='wp-admin-bar-rank-math-content-ai-page' class="menupop"><a
-									class='ab-item' role="menuitem" aria-expanded="false"
-									href='https://banthotreotuong.com/wp-admin/admin.php?page=rank-math-content-ai-page'><span
-										class="wp-admin-bar-arrow" aria-hidden="true"></span>Content AI</a>
-								<div class="ab-sub-wrapper">
-									<ul role='menu' id='wp-admin-bar-rank-math-content-ai-page-default'
-										class="ab-submenu">
-										<li role='group' id='wp-admin-bar-rank-math-content-ai-tools'><a class='ab-item'
-												role="menuitem"
-												href='https://banthotreotuong.com/wp-admin/admin.php?page=rank-math-content-ai-page#ai-tools'
-												title='Công cụ Content AI'>Công cụ AI</a></li>
-										<li role='group' id='wp-admin-bar-rank-math-content-ai-editor'><a
-												class='ab-item' role="menuitem"
-												href='https://banthotreotuong.com/wp-admin/admin.php?page=rank-math-content-ai-page#content-editor'
-												title='Trình chỉnh sửa Content AI'>Trình soạn thảo nội dung</a></li>
-										<li role='group' id='wp-admin-bar-rank-math-content-ai-chat'><a class='ab-item'
-												role="menuitem"
-												href='https://banthotreotuong.com/wp-admin/admin.php?page=rank-math-content-ai-page#chat'
-												title='Trò chuyện Content AI'>Trò chuyện</a></li>
-										<li role='group' id='wp-admin-bar-rank-math-content-ai-history'><a
-												class='ab-item' role="menuitem"
-												href='https://banthotreotuong.com/wp-admin/admin.php?page=rank-math-content-ai-page#history'
-												title='Lịch sử Content AI'>Lịch sử</a></li>
-									</ul>
-								</div>
-							</li>
-							<li role='group' id='wp-admin-bar-rank-math-mark-me' class="menupop"><a class='ab-item'
-									role="menuitem" aria-expanded="false" href='#'><span class="wp-admin-bar-arrow"
-										aria-hidden="true"></span>Đánh dấu trang này</a>
-								<div class="ab-sub-wrapper">
-									<ul role='menu' id='wp-admin-bar-rank-math-mark-me-default' class="ab-submenu">
-										<li role='group' id='wp-admin-bar-rank-math-no-index' class="mark-page-as"><a
-												class='ab-item' role="menuitem" href='#noindex'>Dưới dạng NoIndex</a>
-										</li>
-										<li role='group' id='wp-admin-bar-rank-math-no-follow' class="mark-page-as"><a
-												class='ab-item' role="menuitem" href='#nofollow'>Dưới dạng NoFollow</a>
-										</li>
-									</ul>
-								</div>
-							</li>
-							<li role='group' id='wp-admin-bar-rank-math-third-party' class="menupop"><a class='ab-item'
-									role="menuitem" aria-expanded="false" href='#'><span class="wp-admin-bar-arrow"
-										aria-hidden="true"></span>Công cụ bên ngoài</a>
-								<div class="ab-sub-wrapper">
-									<ul role='menu' id='wp-admin-bar-rank-math-third-party-default' class="ab-submenu">
-										<li role='group' id='wp-admin-bar-rank-math-google-pagespeed'><a class='ab-item'
-												role="menuitem"
-												href='https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fbanthotreotuong.com%2Fban-tho-treo-tuong%2F'
-												target='_blank' title='Google PageSpeed ​​Insights'>Google PageSpeed</a>
-										</li>
-										<li role='group' id='wp-admin-bar-rank-math-google-richresults-mobile'><a
-												class='ab-item' role="menuitem"
-												href='https://search.google.com/test/rich-results?url=https%3A%2F%2Fbanthotreotuong.com%2Fban-tho-treo-tuong%2F&#038;user_agent=1'
-												target='_blank'
-												title='Kiểm tra kết quả phong phú của Google - Googlebot trên điện thoại thông minh'>Kết
-												quả phong phú của Google (Di động)</a></li>
-										<li role='group' id='wp-admin-bar-rank-math-google-richresults-desktop'><a
-												class='ab-item' role="menuitem"
-												href='https://search.google.com/test/rich-results?url=https%3A%2F%2Fbanthotreotuong.com%2Fban-tho-treo-tuong%2F&#038;user_agent=2'
-												target='_blank'
-												title='Kiểm tra kết quả phong phú của Google - Googlebot trên máy tính để bàn'>Kết
-												quả phong phú của Google (Máy tính để bàn)</a></li>
-										<li role='group' id='wp-admin-bar-rank-math-fb-debugger'><a class='ab-item'
-												role="menuitem"
-												href='https://developers.facebook.com/tools/debug/sharing/?q=https%3A%2F%2Fbanthotreotuong.com%2Fban-tho-treo-tuong%2F'
-												target='_blank' title='Trình gỡ lỗi chia sẻ Facebook'>Trình gỡ lỗi
-												Facebook</a></li>
-									</ul>
-								</div>
-							</li>
-						</ul>
-					</div>
-				</li>
-				<li role='group' id='wp-admin-bar-wpfc-toolbar-parent' class="menupop"><a class='ab-item'
-						role="menuitem" aria-expanded="false"
-						href='https://banthotreotuong.com/wp-admin/admin.php?page=wpfastestcacheoptions'>WP Fastest
-						Cache</a>
-					<div class="ab-sub-wrapper">
-						<ul role='menu' id='wp-admin-bar-wpfc-toolbar-parent-default' class="ab-submenu">
-							<li role='group' id='wp-admin-bar-wpfc-toolbar-parent-clear-cache-of-this-page'
-								class="wpfc-toolbar-child"><a class='ab-item' role="menuitem" href='#'>Clear Cache of
-									This Page</a></li>
-							<li role='group' id='wp-admin-bar-wpfc-toolbar-parent-delete-cache'
-								class="wpfc-toolbar-child"><a class='ab-item' role="menuitem" href='#'>Clear All
-									Cache</a></li>
-							<li role='group' id='wp-admin-bar-wpfc-toolbar-parent-delete-cache-and-minified'
-								class="wpfc-toolbar-child"><a class='ab-item' role="menuitem" href='#'>Clear Cache and
-									Minified CSS/JS</a></li>
-						</ul>
-					</div>
-				</li>
-			</ul>
-			<ul role='menu' id='wp-admin-bar-top-secondary' class="ab-top-secondary ab-top-menu">
-				<li role='group' id='wp-admin-bar-my-account' class="menupop with-avatar"><a class='ab-item'
-						role="menuitem" aria-expanded="false"
-						href='https://banthotreotuong.com/wp-admin/profile.php'>Xin chào, <span
-							class="display-name">Nhattam</span><img alt=''
-							src='https://secure.gravatar.com/avatar/0ff6a451095479f6a9a6e5dcca0846e27fbd3f1d6ef0ccf5952dc524b1cc95e2?s=26&#038;d=mm&#038;r=g'
-							srcset='https://secure.gravatar.com/avatar/0ff6a451095479f6a9a6e5dcca0846e27fbd3f1d6ef0ccf5952dc524b1cc95e2?s=52&#038;d=mm&#038;r=g 2x'
-							class='avatar avatar-26 photo' height='26' width='26' decoding='async' /></a>
-					<div class="ab-sub-wrapper">
-						<ul role='menu' aria-label='Xin chào, Nhattam' id='wp-admin-bar-user-actions'
-							class="ab-submenu">
-							<li role='group' id='wp-admin-bar-user-info'><a class='ab-item' role="menuitem"
-									href='https://banthotreotuong.com/wp-admin/profile.php'><img alt=''
-										src='https://secure.gravatar.com/avatar/0ff6a451095479f6a9a6e5dcca0846e27fbd3f1d6ef0ccf5952dc524b1cc95e2?s=64&#038;d=mm&#038;r=g'
-										srcset='https://secure.gravatar.com/avatar/0ff6a451095479f6a9a6e5dcca0846e27fbd3f1d6ef0ccf5952dc524b1cc95e2?s=128&#038;d=mm&#038;r=g 2x'
-										class='avatar avatar-64 photo' height='64' width='64' decoding='async' /><span
-										class='display-name'>Nhattam</span><span class='username'>mktnhattam</span><span
-										class='display-name edit-profile'>Sửa hồ sơ</span></a></li>
-							<li role='group' id='wp-admin-bar-logout'><a class='ab-item' role="menuitem"
-									href='https://banthotreotuong.com/wp-login.php?action=logout&#038;_wpnonce=0aa3e5c35c'>Đăng
-									xuất</a></li>
-						</ul>
-					</div>
-				</li>
-				<li role='group' id='wp-admin-bar-search' class="admin-bar-search">
-					<div class="ab-item ab-empty-item" tabindex="-1" role="menuitem">
-						<form action="https://banthotreotuong.com/" method="get" id="adminbarsearch"><input
-								class="adminbar-input" name="s" id="adminbar-search" type="text" value=""
-								maxlength="150" /><label for="adminbar-search" class="screen-reader-text">Tìm
-								kiếm</label><input type="submit" class="adminbar-button" value="Tìm kiếm" /></form>
-					</div>
-				</li>
-			</ul>
-		</div>
-	</div>
 
 	<a class="skip-link screen-reader-text" href="#main">Bỏ qua nội dung</a>
 
 	<div id="wrapper">
+
 
 		<header id="header" class="header has-sticky sticky-jump">
 			<div class="header-wrapper">
@@ -6602,6 +5849,7 @@ Mua Nhanh
 
 						<!-- Logo -->
 						<div id="logo" class="flex-col logo">
+
 							<!-- Header logo -->
 							<a href="https://banthotreotuong.com/"
 								title="Bàn thờ treo tường - Bàn thờ Treo tường Nhất Tâm &#8211; Bàn thờ gỗ đẹp, sản xuất, thiết kế, thi công nội thất phòng thờ trọn gói"
@@ -6633,7 +5881,7 @@ Mua Nhanh
 													</div>
 													<div class="flex-col">
 														<button type="submit" value="Tìm kiếm"
-															class="ux-search-submit submit-button secondary button icon mb-0"
+															class="ux-search-submit submit-button secondary button  icon mb-0"
 															aria-label="Gửi">
 															<i class="icon-search" aria-hidden="true"></i> </button>
 													</div>
@@ -6648,8 +5896,8 @@ Mua Nhanh
 
 						<!-- Left Elements -->
 						<div class="flex-col hide-for-medium flex-left search-form-custom
-flex-grow">
-							<ul class="header-nav header-nav-main nav nav-left nav-box nav-uppercase">
+            flex-grow">
+							<ul class="header-nav header-nav-main nav nav-left  nav-box nav-uppercase">
 								<li class="header-search-form search-form html relative has-icon search-form-custom-li">
 									<div class="header-search-form-wrapper">
 										<div class="searchform-wrapper ux-search-box relative form-flat is-normal">
@@ -6666,7 +5914,7 @@ flex-grow">
 													</div>
 													<div class="flex-col">
 														<button type="submit" value="Tìm kiếm"
-															class="ux-search-submit submit-button secondary button icon mb-0"
+															class="ux-search-submit submit-button secondary button  icon mb-0"
 															aria-label="Gửi">
 															<i class="icon-search" aria-hidden="true"></i> </button>
 													</div>
@@ -6681,7 +5929,7 @@ flex-grow">
 
 						<!-- Right Elements -->
 						<div class="flex-col hide-for-medium flex-right cart-custom">
-							<ul class="header-nav header-nav-main nav nav-right nav-box nav-uppercase">
+							<ul class="header-nav header-nav-main nav nav-right  nav-box nav-uppercase">
 								<li class="html custom html_topbar_left">
 									<div class="hltnhd">
 										<div class="hd1"><i class="fas fa-phone"></i></div>
@@ -6702,6 +5950,7 @@ flex-grow">
 											class="header-cart-link off-canvas-toggle nav-top-link icon button circle is-outline is-small"
 											data-open="#cart-popup" data-class="off-canvas-cart" title="Giỏ hàng"
 											data-pos="right">
+
 											<i class="icon-shopping-bag" data-icon-label="0">
 											</i>
 										</a>
@@ -6715,6 +5964,7 @@ flex-grow">
 												<div class="is-divider"></div>
 											</div>
 											<div class="widget_shopping_cart_content">
+
 
 												<div class="ux-mini-cart-empty flex flex-row-col text-center pt pb">
 													<div class="ux-mini-cart-empty-icon">
@@ -6745,6 +5995,7 @@ flex-grow">
 									<a href="#" data-open="#main-menu" data-pos="right" data-bg="main-menu-overlay"
 										data-color="" class="is-small" aria-label="Menu" aria-controls="main-menu"
 										aria-expanded="false">
+
 										<i class="icon-menu" aria-hidden="true"></i>
 									</a>
 								</li>
@@ -6752,6 +6003,7 @@ flex-grow">
 						</div>
 
 					</div>
+
 					<div class="container">
 						<div class="top-divider full-width"></div>
 					</div>
@@ -6760,7 +6012,7 @@ flex-grow">
 					<div class="flex-row container header-bot-custom">
 
 						<div class="flex-col hide-for-medium flex-left">
-							<ul class="nav header-nav header-bottom-nav nav-left nav-line-bottom nav-uppercase">
+							<ul class="nav header-nav header-bottom-nav nav-left  nav-line-bottom nav-uppercase">
 								<div id="mega-menu-wrap" class="ot-vm-click">
 									<div id="mega-menu-title">
 										<i class="icon-menu"></i> Danh mục sản phẩm
@@ -6869,8 +6121,9 @@ flex-grow">
 								</div>
 							</ul>
 						</div>
+
 						<div class="flex-col hide-for-medium flex-center">
-							<ul class="nav header-nav header-bottom-nav nav-center nav-line-bottom nav-uppercase">
+							<ul class="nav header-nav header-bottom-nav nav-center  nav-line-bottom nav-uppercase">
 								<li id="menu-item-1207"
 									class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1207 menu-item-design-default">
 									<a href="https://banthotreotuong.com/" class="nav-top-link">Trang Chủ</a>
@@ -6892,8 +6145,9 @@ flex-grow">
 								</li>
 							</ul>
 						</div>
+
 						<div class="flex-col hide-for-medium flex-right flex-grow">
-							<ul class="nav header-nav header-bottom-nav nav-right nav-line-bottom nav-uppercase">
+							<ul class="nav header-nav header-bottom-nav nav-right  nav-line-bottom nav-uppercase">
 								<li class="html header-button-1">
 									<div class="header-button">
 										<a href="#maps-cua-hang" class="button plain is-outline"
@@ -6919,6 +6173,7 @@ flex-grow">
 									<ul class="nav-dropdown nav-dropdown-default">
 										<li class="html widget_shopping_cart">
 											<div class="widget_shopping_cart_content">
+
 
 												<div class="ux-mini-cart-empty flex flex-row-col text-center pt pb">
 													<div class="ux-mini-cart-empty-icon">
@@ -6947,6 +6202,8 @@ flex-grow">
 								</li>
 							</ul>
 						</div>
+
+
 					</div>
 				</div>
 
@@ -6958,7 +6215,7 @@ flex-grow">
 		</header>
 
 		<div class="shop-page-title category-page-title page-title ">
-			<div class="page-title-inner flex-row medium-flex-wrap container">
+			<div class="page-title-inner flex-row  medium-flex-wrap container">
 				<div class="flex-col flex-grow medium-text-center">
 					<div class="is-large">
 						<nav class="woocommerce-breadcrumb breadcrumbs " aria-label="Breadcrumb"><a
@@ -7013,44 +6270,52 @@ flex-grow">
 								theo phong cách đơn giản, tinh tế, phù hợp với xu hướng năm 2025, đáp ứng đa dạng nhu
 								cầu sử dụng và thẩm mỹ của khách hàng.</p>
 						</div>
-						<div class="block-edit-link" data-title="Edit Block: Phân loại bàn thờ treo tường"
-							data-backend="https://banthotreotuong.com/wp-admin/post.php?post=2678&#038;action=edit"
-							data-link="https://banthotreotuong.com/wp-admin/post.php?post=5129&#038;action=edit&#038;app=uxbuilder&#038;type=editor&#038;edit_post_id=2678">
-						</div>
-						<section class="section btt-cate-custom" id="section_856077820">
+						<section class="section btt-cate-custom" id="section_102452546">
 							<div class="section-bg fill">
+
+
 
 							</div>
 
 
+
 							<div class="section-content relative">
 
-								<div class="row btt-row-custom" id="row-1160359743">
+
+								<div class="row btt-row-custom" id="row-1606667691">
 
 
-									<div id="col-1482822384" class="col btt-col small-12 large-12">
+									<div id="col-1573177134" class="col btt-col small-12 large-12">
 										<div class="col-inner">
 
-											<div id="text-2587834883" class="text btt-title">
+
+
+											<div id="text-3474004043" class="text btt-title">
+
 
 												<h3 style="text-align: left;">BÀN THỜ TREO TƯỜNG</h3>
+
 												<style>
-													#text-2587834883 {
+													#text-3474004043 {
 														color: rgb(0, 0, 0);
 													}
 
-													#text-2587834883>* {
+													#text-3474004043>* {
 														color: rgb(0, 0, 0);
 													}
 												</style>
 											</div>
 
+
 										</div>
 									</div>
 
 
-									<div id="col-1115785102" class="col btt-col small-12 large-12">
+
+									<div id="col-1956465282" class="col btt-col small-12 large-12">
 										<div class="col-inner">
+
+
 
 
 
@@ -7084,12 +6349,14 @@ flex-grow">
 									</div>
 
 
+
 								</div>
 
 							</div>
 
+
 							<style>
-								#section_856077820 {
+								#section_102452546 {
 									padding-top: 30px;
 									padding-bottom: 30px;
 								}
@@ -7100,6 +6367,7 @@ flex-grow">
 							<div
 								class="product-small col has-hover product type-product post-5129 status-publish first instock product_cat-ban-tho-gia-tien product_cat-ban-tho-go-dep product_cat-ban-tho-go-go product_cat-ban-tho-go-gu product_cat-ban-tho-go-huong product_cat-ban-tho-go-soi product_cat-ban-tho-phat product_cat-ban-tho-treo-2-tang product_cat-ban-tho-treo-chung-cu product_cat-ban-tho-treo-hien-dai product_cat-ban-tho-treo-tuong has-post-thumbnail sale shipping-taxable purchasable product-type-simple">
 								<div class="col-inner">
+
 									<div class="badge-container absolute left top z-1">
 										<div class="callout badge badge-circle">
 											<div class="badge-inner secondary on-sale"><span class="onsale">-9%</span>
@@ -7160,6 +6428,7 @@ flex-grow">
 							<div
 								class="product-small col has-hover product type-product post-5038 status-publish instock product_cat-ban-tho-treo-tuong product_cat-ban-tho-gia-tien product_cat-ban-tho-go-dep product_cat-ban-tho-go-go product_cat-ban-tho-go-gu product_cat-ban-tho-go-huong product_cat-ban-tho-go-soi product_cat-ban-tho-phat product_cat-ban-tho-treo-2-tang product_cat-ban-tho-treo-chung-cu product_cat-ban-tho-treo-hien-dai has-post-thumbnail sale shipping-taxable purchasable product-type-simple">
 								<div class="col-inner">
+
 									<div class="badge-container absolute left top z-1">
 										<div class="callout badge badge-circle">
 											<div class="badge-inner secondary on-sale"><span class="onsale">-18%</span>
@@ -7219,6 +6488,7 @@ flex-grow">
 							<div
 								class="product-small col has-hover product type-product post-922 status-publish instock product_cat-ban-tho-go-go product_cat-ban-tho-go-gu product_cat-ban-tho-go-huong product_cat-ban-tho-go-soi product_cat-ban-tho-treo-chung-cu product_cat-ban-tho-treo-hien-dai product_cat-ban-tho-treo-tuong product_tag-ban-tho-treo product_tag-ban-tho-treo-hien-dai has-post-thumbnail sale shipping-taxable purchasable product-type-simple">
 								<div class="col-inner">
+
 									<div class="badge-container absolute left top z-1">
 										<div class="callout badge badge-circle">
 											<div class="badge-inner secondary on-sale"><span class="onsale">-14%</span>
@@ -7279,6 +6549,7 @@ flex-grow">
 							<div
 								class="product-small col has-hover product type-product post-830 status-publish last instock product_cat-ban-tho-gia-tien product_cat-ban-tho-go-go product_cat-ban-tho-go-gu product_cat-ban-tho-go-huong product_cat-ban-tho-go-soi product_cat-ban-tho-treo-chung-cu product_cat-ban-tho-treo-hien-dai product_cat-ban-tho-treo-tuong product_tag-ban-tho-treo-tuong-chung-cu product_tag-ban-tho-treo-tuong-chung-cu-hien-dai has-post-thumbnail sale shipping-taxable purchasable product-type-simple">
 								<div class="col-inner">
+
 									<div class="badge-container absolute left top z-1">
 										<div class="callout badge badge-circle">
 											<div class="badge-inner secondary on-sale"><span class="onsale">-14%</span>
@@ -7339,6 +6610,7 @@ flex-grow">
 							<div
 								class="product-small col has-hover product type-product post-5164 status-publish first instock product_cat-ban-tho-gia-tien product_cat-ban-tho-go-dep product_cat-ban-tho-go-go product_cat-ban-tho-go-gu product_cat-ban-tho-go-huong product_cat-ban-tho-go-soi product_cat-ban-tho-phat product_cat-ban-tho-treo-2-tang product_cat-ban-tho-treo-chung-cu product_cat-ban-tho-treo-hien-dai product_cat-ban-tho-treo-tuong has-post-thumbnail sale shipping-taxable purchasable product-type-simple">
 								<div class="col-inner">
+
 									<div class="badge-container absolute left top z-1">
 										<div class="callout badge badge-circle">
 											<div class="badge-inner secondary on-sale"><span class="onsale">-9%</span>
@@ -7399,6 +6671,7 @@ flex-grow">
 							<div
 								class="product-small col has-hover product type-product post-831 status-publish instock product_cat-ban-tho-treo-tuong product_tag-ban-tho-treo-tuong-chung-cu product_tag-ban-tho-treo-tuong-hien-dai has-post-thumbnail sale shipping-taxable purchasable product-type-simple">
 								<div class="col-inner">
+
 									<div class="badge-container absolute left top z-1">
 										<div class="callout badge badge-circle">
 											<div class="badge-inner secondary on-sale"><span class="onsale">-14%</span>
@@ -7459,6 +6732,7 @@ flex-grow">
 							<div
 								class="product-small col has-hover product type-product post-827 status-publish instock product_cat-ban-tho-gia-tien product_cat-ban-tho-go-dep product_cat-ban-tho-go-go product_cat-ban-tho-go-gu product_cat-ban-tho-go-huong product_cat-ban-tho-go-soi product_cat-ban-tho-treo-chung-cu product_cat-ban-tho-treo-hien-dai product_cat-ban-tho-treo-tuong product_tag-ban-tho-chung-cu product_tag-ban-tho-treo-tuong product_tag-ban-tho-treo-tuong-chung-cu-mau-dep has-post-thumbnail sale shipping-taxable purchasable product-type-simple">
 								<div class="col-inner">
+
 									<div class="badge-container absolute left top z-1">
 										<div class="callout badge badge-circle">
 											<div class="badge-inner secondary on-sale"><span class="onsale">-10%</span>
@@ -7519,6 +6793,7 @@ flex-grow">
 							<div
 								class="product-small col has-hover product type-product post-824 status-publish last instock product_cat-ban-tho-gia-tien product_cat-ban-tho-go-dep product_cat-ban-tho-go-go product_cat-ban-tho-go-gu product_cat-ban-tho-go-huong product_cat-ban-tho-go-soi product_cat-ban-tho-phat product_cat-ban-tho-treo-chung-cu product_cat-ban-tho-treo-hien-dai product_cat-ban-tho-treo-tuong has-post-thumbnail sale shipping-taxable purchasable product-type-simple">
 								<div class="col-inner">
+
 									<div class="badge-container absolute left top z-1">
 										<div class="callout badge badge-circle">
 											<div class="badge-inner secondary on-sale"><span class="onsale">-16%</span>
@@ -7579,6 +6854,7 @@ flex-grow">
 							<div
 								class="product-small col has-hover product type-product post-5150 status-publish first instock product_cat-ban-tho-gia-tien product_cat-ban-tho-go-dep product_cat-ban-tho-go-go product_cat-ban-tho-go-gu product_cat-ban-tho-go-huong product_cat-ban-tho-go-soi product_cat-ban-tho-phat product_cat-ban-tho-treo-2-tang product_cat-ban-tho-treo-chung-cu product_cat-ban-tho-treo-hien-dai product_cat-ban-tho-treo-tuong has-post-thumbnail sale shipping-taxable purchasable product-type-simple">
 								<div class="col-inner">
+
 									<div class="badge-container absolute left top z-1">
 										<div class="callout badge badge-circle">
 											<div class="badge-inner secondary on-sale"><span class="onsale">-9%</span>
@@ -7639,6 +6915,7 @@ flex-grow">
 							<div
 								class="product-small col has-hover product type-product post-823 status-publish instock product_cat-ban-tho-gia-tien product_cat-ban-tho-go-dep product_cat-ban-tho-go-go product_cat-ban-tho-go-gu product_cat-ban-tho-go-huong product_cat-ban-tho-go-soi product_cat-ban-tho-phat product_cat-ban-tho-treo-chung-cu product_cat-ban-tho-treo-hien-dai product_cat-ban-tho-treo-tuong has-post-thumbnail sale shipping-taxable purchasable product-type-simple">
 								<div class="col-inner">
+
 									<div class="badge-container absolute left top z-1">
 										<div class="callout badge badge-circle">
 											<div class="badge-inner secondary on-sale"><span class="onsale">-13%</span>
@@ -7699,6 +6976,7 @@ flex-grow">
 							<div
 								class="product-small col has-hover product type-product post-924 status-publish instock product_cat-ban-tho-go-soi product_cat-ban-tho-treo-chung-cu product_cat-ban-tho-treo-hien-dai product_cat-ban-tho-treo-tuong product_tag-ban-tho-dep product_tag-ban-tho-treo-dep product_tag-ban-tho-treo-tuong has-post-thumbnail sale shipping-taxable purchasable product-type-simple">
 								<div class="col-inner">
+
 									<div class="badge-container absolute left top z-1">
 										<div class="callout badge badge-circle">
 											<div class="badge-inner secondary on-sale"><span class="onsale">-14%</span>
@@ -7758,6 +7036,7 @@ flex-grow">
 							<div
 								class="product-small col has-hover product type-product post-923 status-publish last instock product_cat-ban-tho-treo-tuong product_tag-ban-tho-treo product_tag-ban-tho-treo-tuong product_tag-ban-tho-treo-tuong-mau-dep has-post-thumbnail sale shipping-taxable purchasable product-type-simple">
 								<div class="col-inner">
+
 									<div class="badge-container absolute left top z-1">
 										<div class="callout badge badge-circle">
 											<div class="badge-inner secondary on-sale"><span class="onsale">-16%</span>
@@ -7821,6 +7100,7 @@ flex-grow">
 							<div
 								class="product-small col has-hover product type-product post-439 status-publish first instock product_cat-ban-tho-treo-tuong product_tag-ban-tho product_tag-ban-tho-go-dep product_tag-ban-tho-treo-tuong product_tag-ban-tho-treo-tuong-chung-cu product_tag-ban-tho-treo-tuong-don-gian has-post-thumbnail sale shipping-taxable purchasable product-type-simple">
 								<div class="col-inner">
+
 									<div class="badge-container absolute left top z-1">
 										<div class="callout badge badge-circle">
 											<div class="badge-inner secondary on-sale"><span class="onsale">-20%</span>
@@ -7877,6 +7157,7 @@ flex-grow">
 							<div
 								class="product-small col has-hover product type-product post-920 status-publish instock product_cat-ban-tho-gia-tien product_cat-ban-tho-go-go product_cat-ban-tho-go-gu product_cat-ban-tho-go-huong product_cat-ban-tho-go-soi product_cat-ban-tho-phat product_cat-ban-tho-treo-chung-cu product_cat-ban-tho-treo-hien-dai product_cat-ban-tho-treo-tuong product_tag-ban-tho-treo-tuong product_tag-ban-tho-treo-tuong-go-dep has-post-thumbnail sale shipping-taxable purchasable product-type-simple">
 								<div class="col-inner">
+
 									<div class="badge-container absolute left top z-1">
 										<div class="callout badge badge-circle">
 											<div class="badge-inner secondary on-sale"><span class="onsale">-19%</span>
@@ -7940,6 +7221,7 @@ flex-grow">
 							<div
 								class="product-small col has-hover product type-product post-334 status-publish instock product_cat-ban-tho-gia-tien product_cat-ban-tho-go-dep product_cat-ban-tho-go-go product_cat-ban-tho-go-gu product_cat-ban-tho-go-huong product_cat-ban-tho-go-soi product_cat-ban-tho-phat product_cat-ban-tho-treo-chung-cu product_cat-ban-tho-treo-hien-dai product_cat-ban-tho-treo-tuong product_tag-ban-tho product_tag-ban-tho-don-gian product_tag-ban-tho-treo-tuong product_tag-ban-tho-treo-tuong-don-gian has-post-thumbnail sale shipping-taxable purchasable product-type-simple">
 								<div class="col-inner">
+
 									<div class="badge-container absolute left top z-1">
 										<div class="callout badge badge-circle">
 											<div class="badge-inner secondary on-sale"><span class="onsale">-20%</span>
@@ -8000,6 +7282,7 @@ flex-grow">
 							<div
 								class="product-small col has-hover product type-product post-826 status-publish last instock product_cat-ban-tho-go-dep product_cat-ban-tho-go-go product_cat-ban-tho-go-gu product_cat-ban-tho-go-huong product_cat-ban-tho-go-soi product_cat-ban-tho-treo-chung-cu product_cat-ban-tho-treo-hien-dai product_cat-ban-tho-treo-tuong has-post-thumbnail sale shipping-taxable purchasable product-type-simple">
 								<div class="col-inner">
+
 									<div class="badge-container absolute left top z-1">
 										<div class="callout badge badge-circle">
 											<div class="badge-inner secondary on-sale"><span class="onsale">-15%</span>
@@ -8059,6 +7342,7 @@ flex-grow">
 							<div
 								class="product-small col has-hover product type-product post-437 status-publish first instock product_cat-ban-tho-gia-tien product_cat-ban-tho-go-dep product_cat-ban-tho-go-go product_cat-ban-tho-go-gu product_cat-ban-tho-go-huong product_cat-ban-tho-go-soi product_cat-ban-tho-phat product_cat-ban-tho-treo-chung-cu product_cat-ban-tho-treo-hien-dai product_cat-ban-tho-treo-tuong product_tag-ban-tho-hien-dai product_tag-ban-tho-treo product_tag-ban-tho-treo-tuong product_tag-ban-tho-treo-tuong-hien-dai has-post-thumbnail sale shipping-taxable purchasable product-type-simple">
 								<div class="col-inner">
+
 									<div class="badge-container absolute left top z-1">
 										<div class="callout badge badge-circle">
 											<div class="badge-inner secondary on-sale"><span class="onsale">-15%</span>
@@ -8119,6 +7403,7 @@ flex-grow">
 							<div
 								class="product-small col has-hover product type-product post-828 status-publish instock product_cat-ban-tho-gia-tien product_cat-ban-tho-go-dep product_cat-ban-tho-go-go product_cat-ban-tho-go-gu product_cat-ban-tho-go-huong product_cat-ban-tho-go-soi product_cat-ban-tho-treo-chung-cu product_cat-ban-tho-treo-hien-dai product_cat-ban-tho-treo-tuong product_tag-ban-tho-hien-dai product_tag-ban-tho-treo product_tag-ban-tho-treo-tuong-hien-dai has-post-thumbnail sale shipping-taxable purchasable product-type-simple">
 								<div class="col-inner">
+
 									<div class="badge-container absolute left top z-1">
 										<div class="callout badge badge-circle">
 											<div class="badge-inner secondary on-sale"><span class="onsale">-22%</span>
@@ -8179,6 +7464,7 @@ flex-grow">
 							<div
 								class="product-small col has-hover product type-product post-825 status-publish instock product_cat-ban-tho-gia-tien product_cat-ban-tho-go-dep product_cat-ban-tho-go-go product_cat-ban-tho-go-gu product_cat-ban-tho-go-huong product_cat-ban-tho-go-soi product_cat-ban-tho-phat product_cat-ban-tho-treo-chung-cu product_cat-ban-tho-treo-hien-dai product_cat-ban-tho-treo-tuong has-post-thumbnail sale shipping-taxable purchasable product-type-simple">
 								<div class="col-inner">
+
 									<div class="badge-container absolute left top z-1">
 										<div class="callout badge badge-circle">
 											<div class="badge-inner secondary on-sale"><span class="onsale">-15%</span>
@@ -8238,6 +7524,7 @@ flex-grow">
 							<div
 								class="product-small col has-hover product type-product post-829 status-publish last instock product_cat-ban-tho-go-dep product_cat-ban-tho-go-go product_cat-ban-tho-go-gu product_cat-ban-tho-go-huong product_cat-ban-tho-go-soi product_cat-ban-tho-treo-chung-cu product_cat-ban-tho-treo-hien-dai product_cat-ban-tho-treo-tuong product_cat-khom-tho product_tag-ban-tho-tranh-truc-chi product_tag-ban-tho-treo product_tag-ban-tho-treo-tuong-va-tranh-truc-chi has-post-thumbnail sale shipping-taxable purchasable product-type-simple">
 								<div class="col-inner">
+
 									<div class="badge-container absolute left top z-1">
 										<div class="callout badge badge-circle">
 											<div class="badge-inner secondary on-sale"><span class="onsale">-22%</span>
@@ -8501,10 +7788,11 @@ flex-grow">
 								class="widget-title shop-sidebar">Bài viết mới</span>
 							<div class="is-divider small"></div>
 							<ul>
+
 								<li class="recent-blog-posts-li">
 									<div class="flex-row recent-blog-posts align-top pt-half pb-half">
 										<div class="flex-col mr-half">
-											<div class="badge post-date badge-outline">
+											<div class="badge post-date  badge-outline">
 												<div class="badge-inner bg-fill"
 													style="background: url(https://banthotreotuong.com/wp-content/uploads/2026/01/ban-tho-treo-tuong-1-300x300.png); border:0;">
 												</div>
@@ -8524,10 +7812,12 @@ flex-grow">
 										</div>
 									</div>
 								</li>
+
+
 								<li class="recent-blog-posts-li">
 									<div class="flex-row recent-blog-posts align-top pt-half pb-half">
 										<div class="flex-col mr-half">
-											<div class="badge post-date badge-outline">
+											<div class="badge post-date  badge-outline">
 												<div class="badge-inner bg-fill"
 													style="background: url(https://banthotreotuong.com/wp-content/uploads/2026/01/ban-tho-treo-tuong-300x300.png); border:0;">
 												</div>
@@ -8545,10 +7835,12 @@ flex-grow">
 										</div>
 									</div>
 								</li>
+
+
 								<li class="recent-blog-posts-li">
 									<div class="flex-row recent-blog-posts align-top pt-half pb-half">
 										<div class="flex-col mr-half">
-											<div class="badge post-date badge-outline">
+											<div class="badge post-date  badge-outline">
 												<div class="badge-inner bg-fill"
 													style="background: url(https://banthotreotuong.com/wp-content/uploads/2026/01/xem-phong-thuy-nha-o-1-300x300.png); border:0;">
 												</div>
@@ -8567,10 +7859,12 @@ flex-grow">
 										</div>
 									</div>
 								</li>
+
+
 								<li class="recent-blog-posts-li">
 									<div class="flex-row recent-blog-posts align-top pt-half pb-half">
 										<div class="flex-col mr-half">
-											<div class="badge post-date badge-outline">
+											<div class="badge post-date  badge-outline">
 												<div class="badge-inner bg-fill"
 													style="background: url(https://banthotreotuong.com/wp-content/uploads/2026/01/nam-mo-thay-nguoi-chet-1-300x300.png); border:0;">
 												</div>
@@ -8588,10 +7882,12 @@ flex-grow">
 										</div>
 									</div>
 								</li>
+
+
 								<li class="recent-blog-posts-li">
 									<div class="flex-row recent-blog-posts align-top pt-half pb-half">
 										<div class="flex-col mr-half">
-											<div class="badge post-date badge-outline">
+											<div class="badge post-date  badge-outline">
 												<div class="badge-inner bg-fill"
 													style="background: url(https://banthotreotuong.com/wp-content/uploads/2025/12/tia-chan-nhang-bat-huong-1-300x300.png); border:0;">
 												</div>
@@ -8619,23 +7915,26 @@ flex-grow">
 
 		<footer id="footer" class="footer-wrapper">
 
-			<div class="block-edit-link" data-title="Edit Block: Footer Block"
-				data-backend="https://banthotreotuong.com/wp-admin/post.php?post=30&#038;action=edit"
-				data-link="https://banthotreotuong.com/wp-admin/post.php?post=5129&#038;action=edit&#038;app=uxbuilder&#038;type=editor&#038;edit_post_id=30">
-			</div>
-			<section class="section ft1 dark" id="section_674608821">
+
+			<section class="section ft1 dark" id="section_1125890804">
 				<div class="section-bg fill">
+
+
 
 				</div>
 
 
+
 				<div class="section-content relative">
 
-					<div class="row align-middle ndft1" id="row-1014095887">
+
+					<div class="row align-middle ndft1" id="row-1833952691">
 
 
-						<div id="col-311469308" class="col medium-12 small-12 large-12">
+						<div id="col-286455255" class="col medium-12 small-12 large-12">
 							<div class="col-inner text-left">
+
+
 
 								<div class="d1">Tìm chúng tôi trên: <i class="fab fa-facebook-square"
 										style="color: #004be3;"></i> <i class="fab fa-facebook-messenger"
@@ -8647,12 +7946,14 @@ flex-grow">
 						</div>
 
 
+
 					</div>
 
 				</div>
 
+
 				<style>
-					#section_674608821 {
+					#section_1125890804 {
 						padding-top: 0px;
 						padding-bottom: 0px;
 						background-color: rgb(29, 113, 171);
@@ -8660,19 +7961,26 @@ flex-grow">
 				</style>
 			</section>
 
-			<section class="section ft3" id="section_1951863540">
+
+			<section class="section ft3" id="section_920202744">
 				<div class="section-bg fill">
+
+
 
 				</div>
 
 
+
 				<div class="section-content relative">
 
-					<div class="row footer-custom-3" id="row-1629267240">
+
+					<div class="row footer-custom-3" id="row-88539184">
 
 
-						<div id="col-586883166" class="col medium-12 small-12 large-3">
+						<div id="col-2047666830" class="col medium-12 small-12 large-3">
 							<div class="col-inner">
+
+
 
 								<p class="imgft"><img class="aligncenter"
 										src="https://banthonhattam.com/wp-content/uploads/2022/02/ban-tho-nhat-tam-web.png"
@@ -8701,8 +8009,11 @@ flex-grow">
 						</div>
 
 
-						<div id="col-334494349" class="col medium-5 small-12 large-3">
+
+						<div id="col-742581645" class="col medium-5 small-12 large-3">
 							<div class="col-inner">
+
+
 
 								<p class="titft3">Về chúng tôi</p>
 								<p class="listft3"><a href="/gioi-thieu/">Thông tin Giới thiệu</a></p>
@@ -8723,10 +8034,14 @@ flex-grow">
 						</div>
 
 
-						<div id="col-457322611" class="col medium-7 small-12 large-3">
+
+						<div id="col-969197861" class="col medium-7 small-12 large-3">
 							<div class="col-inner">
 
-								<div id="text-430149327" class="text footer-htch">
+
+
+								<div id="text-1375212942" class="text footer-htch">
+
 
 									<div>
 										<p class="footer-htch-title"><span style="color: #ff0000; font-size: 90%;"> <i
@@ -8799,20 +8114,25 @@ flex-grow">
 												Đạo<br /><strong style="padding-left: 10px;">Hotline:</strong> <a
 													href="tel:0911488567">0911.488.567</a><br /></span></div>
 									</div>
+
 									<style>
-										#text-430149327 {
+										#text-1375212942 {
 											line-height: 1.6;
 											text-align: left;
 										}
 									</style>
 								</div>
 
+
 							</div>
 						</div>
 
 
-						<div id="col-1794464027" class="col social-connect medium-7 small-12 large-3">
+
+						<div id="col-677681571" class="col social-connect medium-7 small-12 large-3">
 							<div class="col-inner">
+
+
 
 								<p class="titft3">Kết nối</p>
 								<div class="social-icons follow-icons"><a
@@ -8848,7 +8168,7 @@ flex-grow">
 												Tường</a></p>
 									</blockquote>
 								</div>
-								<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_999831217">
+								<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1382673829">
 									<a class="" href="http://online.gov.vn/Home/WebDetails/118015" target="_blank"
 										rel="noopener">
 										<div class="img-inner dark">
@@ -8859,31 +8179,36 @@ flex-grow">
 										</div>
 									</a>
 									<style>
-										#image_999831217 {
+										#image_1382673829 {
 											width: 69%;
 										}
 									</style>
 								</div>
 
 
+
 							</div>
 						</div>
+
 
 
 					</div>
 
 				</div>
 
+
 				<style>
-					#section_1951863540 {
+					#section_920202744 {
 						padding-top: 30px;
 						padding-bottom: 30px;
 						background-color: rgb(255, 255, 255);
 					}
 				</style>
 			</section>
+
 			<div class="absolute-footer light medium-text-center text-center">
 				<div class="container clearfix">
+
 
 					<div class="footer-primary pull-left">
 						<div class="copyright-footer">
@@ -8901,17 +8226,13 @@ flex-grow">
 
 	</div>
 
-	<script type="text/javascript" id="rank-math-json">
-		/* <![CDATA[ */
-		var rankMath = { "version": "1.0.257", "ajaxurl": "https:\/\/banthotreotuong.com\/wp-admin\/admin-ajax.php", "adminurl": "https:\/\/banthotreotuong.com\/wp-admin\/admin.php", "endpoint": "https:\/\/banthotreotuong.com\/wp-json\/rankmath\/v1", "security": "02182f6318", "restNonce": "bfd7b768cb", "modules": { "0": "link-counter", "1": "analytics", "2": "seo-analysis", "3": "sitemap", "4": "rich-snippet", "5": "woocommerce", "8": "acf", "10": "content-ai", "11": "instant-indexing", "12": "local-seo", "13": "image-seo" }, "objectID": 23, "objectType": "term" };
-
-		/* ]]> */
-	</script>
 	<div id="main-menu"
 		class="mobile-sidebar no-scrollbar mfp-hide mobile-sidebar-slide mobile-sidebar-levels-1 mobile-sidebar-levels-2"
 		data-levels="2">
 
+
 		<div class="sidebar-menu no-scrollbar ">
+
 
 			<ul class="nav nav-sidebar nav-vertical nav-uppercase nav-slide" data-tab="1">
 				<li class="header-search-form search-form html relative has-icon search-form-custom-li">
@@ -8929,7 +8250,7 @@ flex-grow">
 									</div>
 									<div class="flex-col">
 										<button type="submit" value="Tìm kiếm"
-											class="ux-search-submit submit-button secondary button icon mb-0"
+											class="ux-search-submit submit-button secondary button  icon mb-0"
 											aria-label="Gửi">
 											<i class="icon-search" aria-hidden="true"></i> </button>
 									</div>
@@ -8940,44 +8261,11 @@ flex-grow">
 					</div>
 				</li>
 				<li class="account-item has-icon menu-item">
-
-					<a href="https://banthotreotuong.com/tai-khoan/" class="account-link account-login"
-						title="Tài khoản">
+					<a href="https://banthotreotuong.com/tai-khoan/" class="nav-top-link nav-top-not-logged-in">
 						<span class="header-account-title">
-							Tài khoản </span>
+							Đăng nhập </span>
 					</a>
 
-
-					<ul class="children">
-						<li
-							class="woocommerce-MyAccount-navigation-link woocommerce-MyAccount-navigation-link--dashboard">
-							<a href="https://banthotreotuong.com/tai-khoan/">
-								Trang tài khoản </a>
-						</li>
-						<li class="woocommerce-MyAccount-navigation-link woocommerce-MyAccount-navigation-link--orders">
-							<a href="https://banthotreotuong.com/tai-khoan/orders/">
-								Đơn hàng </a>
-						</li>
-						<li
-							class="woocommerce-MyAccount-navigation-link woocommerce-MyAccount-navigation-link--downloads">
-							<a href="https://banthotreotuong.com/tai-khoan/downloads/">
-								Tệp tải xuống </a>
-						</li>
-						<li
-							class="woocommerce-MyAccount-navigation-link woocommerce-MyAccount-navigation-link--edit-address">
-							<a href="https://banthotreotuong.com/tai-khoan/edit-address/">
-								Địa chỉ </a>
-						</li>
-						<li
-							class="woocommerce-MyAccount-navigation-link woocommerce-MyAccount-navigation-link--edit-account">
-							<a href="https://banthotreotuong.com/tai-khoan/edit-account/">
-								Tài khoản </a>
-						</li>
-						<li
-							class="woocommerce-MyAccount-navigation-link woocommerce-MyAccount-navigation-link--customer-logout">
-							<a href="https://banthotreotuong.com/tai-khoan/customer-logout/">Thoát</a>
-						</li>
-					</ul>
 				</li>
 				<li id="menu-item-4623"
 					class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-4623"><a
@@ -9078,9 +8366,15 @@ flex-grow">
 					<a href="/thong-tin-lien-he/">Về chúng tôi</a>
 				</li>
 			</ul>
+
+
 		</div>
 
+
 	</div>
+	<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/bt-nhat-tam/*","/wp-content/themes/flatsome/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
 		dataLayer.push({
@@ -9089,6 +8383,7 @@ flex-grow">
 			'dynx_totalvalue': 0
 		});
 	</script>
+
 
 	<script>
 		document.addEventListener("DOMContentLoaded", function () {
@@ -9300,11 +8595,11 @@ flex-grow">
 			if (!bubble || !nav || !close) return;
 
 			// --- CẤU HÌNH THỜI GIAN ---
-			const OPEN_DELAY_MS = 250; // Chờ bubble thu nhỏ
-			const ANIM_MS = 350; // Thời gian animation CSS
+			const OPEN_DELAY_MS = 250;      // Chờ bubble thu nhỏ
+			const ANIM_MS = 350;            // Thời gian animation CSS
 
 			// Tách biệt thời gian chờ
-			const AUTO_HIDE_INITIAL_MS = 3000; // 3 giây cho lần đầu tiên (Intro)
+			const AUTO_HIDE_INITIAL_MS = 3000;  // 3 giây cho lần đầu tiên (Intro)
 			const AUTO_HIDE_REGULAR_MS = 10000; // 10 giây cho các lần sau (User mở lại)
 
 			let autoHideTimer = null;
@@ -9397,21 +8692,23 @@ flex-grow">
 
 	<div id="popup-personal-contact" class="lightbox-by-id lightbox-content mfp-hide lightbox-white "
 		style="max-width:600px ;padding:30px">
+
 		<p class="text-center"><mark>Block <strong>"popup-personal-contact"</strong> not found</mark></p>
 	</div>
 
+
+
 	<div id="maps-cua-hang" class="lightbox-by-id lightbox-content mfp-hide lightbox-white "
 		style="max-width:650px ;padding:20px">
-		<div class="block-edit-link" data-title="Edit Block: Maps cửa hàng"
-			data-backend="https://banthotreotuong.com/wp-admin/post.php?post=1187&#038;action=edit"
-			data-link="https://banthotreotuong.com/wp-admin/post.php?post=5129&#038;action=edit&#038;app=uxbuilder&#038;type=editor&#038;edit_post_id=1187">
-		</div>
+
 		<div>
-			<div class="row align-center" id="row-1149073176">
+			<div class="row align-center" id="row-1109757058">
 
 
-				<div id="col-221308702" class="col small-12 large-12">
+				<div id="col-858517196" class="col small-12 large-12">
 					<div class="col-inner">
+
+
 
 
 						<div class="tabbed-content maps-cua-hang">
@@ -9452,13 +8749,16 @@ flex-grow">
 								<div id="tab_Đà-nẵng" class="panel active entry-content" role="tabpanel"
 									aria-labelledby="tab-Đà-nẵng">
 
-									<div class="row" id="row-602542593">
+									<div class="row" id="row-1368308077">
 
 
-										<div id="col-1306363045" class="col medium-6 small-12 large-6">
+										<div id="col-1826293923" class="col medium-6 small-12 large-6">
 											<div class="col-inner">
 
-												<div id="text-794085477" class="text">
+
+
+												<div id="text-2949138666" class="text">
+
 
 													<p style="margin-bottom: 0px;"><strong>Showroom 1:</strong>
 														<strong>Hotline:</strong> <a
@@ -9466,12 +8766,14 @@ flex-grow">
 													</p>
 													<p><strong>Địa chỉ:</strong> số 389 Điện Biên Phủ, P. Thanh Khê, TP.
 														Đà Nẵng (<em>Đối diện Không Gian Xưa</em>)</p>
+
 													<style>
-														#text-794085477 {
+														#text-2949138666 {
 															font-size: 0.9rem;
 														}
 													</style>
 												</div>
+
 												<p><iframe style="border: 0;"
 														src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3833.891474459084!2d108.16946491485845!3d16.071120488879735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6113fffbe192f5ee!2zUGhvbmcgVGjhu6d5IE5o4bqldCBUw6Jt!5e0!3m2!1svi!2s!4v1628855413847!5m2!1svi!2s"
 														width="1024" height="450" allowfullscreen="allowfullscreen"
@@ -9481,10 +8783,14 @@ flex-grow">
 										</div>
 
 
-										<div id="col-1600977689" class="col medium-6 small-12 large-6">
+
+										<div id="col-830609057" class="col medium-6 small-12 large-6">
 											<div class="col-inner">
 
-												<div id="text-1589301215" class="text">
+
+
+												<div id="text-484439073" class="text">
+
 
 													<p style="margin-bottom: 0px;"><strong>Showroom 2:</strong>
 														<strong>Hotline:</strong> <a
@@ -9493,12 +8799,14 @@ flex-grow">
 													<p><strong>Địa chỉ:</strong> số 582 Nguyễn Hữu Thọ, P. Khuê Trung,
 														Tp. Đà Nẵng (<em>Đoạn giữa Xô Viết Nghệ Tĩnh và Lê Đại
 															Hành</em>)</p>
+
 													<style>
-														#text-1589301215 {
+														#text-484439073 {
 															font-size: 0.9rem;
 														}
 													</style>
 												</div>
+
 												<p><iframe style="border: 0;"
 														src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3834.776981853202!2d108.20679362513496!3d16.02512093464801!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314219f2b8df4b77%3A0x33e7bba620e21928!2zQsOgbiBUaOG7nSBOaOG6pXQgVMOibSDEkMOgIE7hurVuZw!5e0!3m2!1svi!2s!4v1757923948091!5m2!1svi!2s"
 														width="600" height="450" allowfullscreen="allowfullscreen"
@@ -9508,34 +8816,41 @@ flex-grow">
 										</div>
 
 
+
 									</div>
 
 								</div>
 								<div id="tab_tp.-hcm" class="panel entry-content" role="tabpanel"
 									aria-labelledby="tab-tp.-hcm">
 
-									<div class="row" id="row-1580599221">
+									<div class="row" id="row-225375197">
 
 
-										<div id="col-982829801" class="col chiduongcn small-12 large-12">
+										<div id="col-704964449" class="col chiduongcn small-12 large-12">
 											<div class="col-inner">
 
-												<div id="text-3321331651" class="text">
+
+
+												<div id="text-3419209997" class="text">
+
 
 													<p style="margin-bottom: 0px;"><strong>Hotline:</strong> <a
 															href="tel:0931088567">0931.088.567</a></p>
 													<strong>Địa chỉ:</strong> số 197 Lê Quang Định, P. 7, Q. Bình Thạnh.
 
 													Website: <a href="https://banthonhattam.com">banthonhattam.com</a>
+
 													<style>
-														#text-3321331651 {
+														#text-3419209997 {
 															font-size: 0.9rem;
 														}
 													</style>
 												</div>
 
+
 											</div>
 										</div>
+
 
 
 									</div>
@@ -9548,26 +8863,32 @@ flex-grow">
 								<div id="tab_hà-nội" class="panel entry-content" role="tabpanel"
 									aria-labelledby="tab-hà-nội">
 
-									<div class="row" id="row-2064567085">
+									<div class="row" id="row-437061941">
 
 
-										<div id="col-140750868" class="col chiduongcn small-12 large-12">
+										<div id="col-1074151551" class="col chiduongcn small-12 large-12">
 											<div class="col-inner">
 
-												<div id="text-3763036236" class="text">
+
+
+												<div id="text-456270494" class="text">
+
 
 													<p style="margin-bottom: 0px;"><strong>Hotline:</strong> <a
 															href="tel:0939831567">0939.831.567</a></p>
 													<strong>Địa chỉ:</strong> KĐT Đô Nghĩa, Yên Nghĩa, Hà Đông, Hà Nội..
+
 													<style>
-														#text-3763036236 {
+														#text-456270494 {
 															font-size: 0.9rem;
 														}
 													</style>
 												</div>
 
+
 											</div>
 										</div>
+
 
 
 									</div>
@@ -9580,26 +8901,32 @@ flex-grow">
 								<div id="tab_tp.-huế" class="panel entry-content" role="tabpanel"
 									aria-labelledby="tab-tp.-huế">
 
-									<div class="row" id="row-584098792">
+									<div class="row" id="row-15695694">
 
 
-										<div id="col-1164337909" class="col chiduongcn small-12 large-12">
+										<div id="col-1036266914" class="col chiduongcn small-12 large-12">
 											<div class="col-inner">
 
-												<div id="text-2742617962" class="text">
+
+
+												<div id="text-3512701343" class="text">
+
 
 													<p style="margin-bottom: 0px;"><strong>Hotline:</strong> <a
 															href="tel:0971688567">0971.688.567</a></p>
 													<strong>Địa chỉ:</strong> số 31 An Dương Vương, P. An Cựu, Tp. Huế.
+
 													<style>
-														#text-2742617962 {
+														#text-3512701343 {
 															font-size: 0.9rem;
 														}
 													</style>
 												</div>
 
+
 											</div>
 										</div>
+
 
 
 									</div>
@@ -9612,26 +8939,32 @@ flex-grow">
 								<div id="tab_tam-kỳ-qn" class="panel entry-content" role="tabpanel"
 									aria-labelledby="tab-tam-kỳ-qn">
 
-									<div class="row" id="row-737407609">
+									<div class="row" id="row-1844455142">
 
 
-										<div id="col-537784240" class="col chiduongcn small-12 large-12">
+										<div id="col-1441774931" class="col chiduongcn small-12 large-12">
 											<div class="col-inner">
 
-												<div id="text-2311768371" class="text">
+
+
+												<div id="text-3291128133" class="text">
+
 
 													<p style="margin-bottom: 0px;"><strong>Hotline:</strong> <a
 															href="tel:0934688567">0934.688.567</a></p>
 													<strong>Địa chỉ:</strong> số 331 Phan Châu Trinh, Tp. Tam Kỳ.
+
 													<style>
-														#text-2311768371 {
+														#text-3291128133 {
 															font-size: 0.9rem;
 														}
 													</style>
 												</div>
 
+
 											</div>
 										</div>
+
 
 
 									</div>
@@ -9644,27 +8977,33 @@ flex-grow">
 								<div id="tab_tp.-quãng-ngãi" class="panel entry-content" role="tabpanel"
 									aria-labelledby="tab-tp.-quãng-ngãi">
 
-									<div class="row" id="row-1921445555">
+									<div class="row" id="row-244232286">
 
 
-										<div id="col-592234476" class="col chiduongcn small-12 large-12">
+										<div id="col-267575025" class="col chiduongcn small-12 large-12">
 											<div class="col-inner">
 
-												<div id="text-1196974881" class="text">
+
+
+												<div id="text-2987100845" class="text">
+
 
 													<p style="margin-bottom: 0px;"><strong>Hotline:</strong> <a
 															href="tel:0936568567">0936.568.567</a></p>
 													<strong>Địa chỉ:</strong> số 679 Quang Trung, P. Nghĩa Chánh, Tp.
 													Quãng Ngãi.
+
 													<style>
-														#text-1196974881 {
+														#text-2987100845 {
 															font-size: 0.9rem;
 														}
 													</style>
 												</div>
 
+
 											</div>
 										</div>
+
 
 
 									</div>
@@ -9677,27 +9016,33 @@ flex-grow">
 								<div id="tab_tp.-quy-nhơn" class="panel entry-content" role="tabpanel"
 									aria-labelledby="tab-tp.-quy-nhơn">
 
-									<div class="row" id="row-1281782567">
+									<div class="row" id="row-125016030">
 
 
-										<div id="col-199975286" class="col chiduongcn small-12 large-12">
+										<div id="col-922482976" class="col chiduongcn small-12 large-12">
 											<div class="col-inner">
 
-												<div id="text-3412316289" class="text">
+
+
+												<div id="text-3521794903" class="text">
+
 
 													<p style="margin-bottom: 0px;"><strong>Hotline:</strong> <a
 															href="tel:0942688567">0942.688.567</a></p>
 													<strong>Địa chỉ:</strong> số 370 Nguyễn Thái Học, Thành phố Quy
 													Nhơn.
+
 													<style>
-														#text-3412316289 {
+														#text-3521794903 {
 															font-size: 0.9rem;
 														}
 													</style>
 												</div>
 
+
 											</div>
 										</div>
+
 
 
 									</div>
@@ -9710,27 +9055,33 @@ flex-grow">
 								<div id="tab_tp.-phan-thiết" class="panel entry-content" role="tabpanel"
 									aria-labelledby="tab-tp.-phan-thiết">
 
-									<div class="row" id="row-1258106990">
+									<div class="row" id="row-276696987">
 
 
-										<div id="col-1358784661" class="col chiduongcn small-12 large-12">
+										<div id="col-801294991" class="col chiduongcn small-12 large-12">
 											<div class="col-inner">
 
-												<div id="text-3328895516" class="text">
+
+
+												<div id="text-3891955165" class="text">
+
 
 													<p style="margin-bottom: 0px;"><strong>Hotline:</strong> <a
 															href="tel:0911488567">0911.488.567</a></p>
 													<strong>Địa chỉ:</strong> số 303 Trần Hưng Đạo, Thành phố Phan
 													Thiết.
+
 													<style>
-														#text-3328895516 {
+														#text-3891955165 {
 															font-size: 0.9rem;
 														}
 													</style>
 												</div>
 
+
 											</div>
 										</div>
+
 
 
 									</div>
@@ -9743,26 +9094,32 @@ flex-grow">
 								<div id="tab_tp.-buôn-mê-thuột" class="panel entry-content" role="tabpanel"
 									aria-labelledby="tab-tp.-buôn-mê-thuột">
 
-									<div class="row" id="row-263090710">
+									<div class="row" id="row-621851259">
 
 
-										<div id="col-1787556964" class="col chiduongcn small-12 large-12">
+										<div id="col-134903350" class="col chiduongcn small-12 large-12">
 											<div class="col-inner">
 
-												<div id="text-2151111808" class="text">
+
+
+												<div id="text-2446094665" class="text">
+
 
 													<p style="margin-bottom: 0px;"><strong>Hotline:</strong> <a
 															href="tel:0911627262">0911.62.72.62</a></p>
 													<strong>Địa chỉ:</strong> số 54 Xô Viết Nghệ Tĩnh, Tp. Buôn Mê Thuột
+
 													<style>
-														#text-2151111808 {
+														#text-2446094665 {
 															font-size: 0.9rem;
 														}
 													</style>
 												</div>
 
+
 											</div>
 										</div>
+
 
 
 									</div>
@@ -9775,26 +9132,32 @@ flex-grow">
 								<div id="tab_thái-nguyên" class="panel entry-content" role="tabpanel"
 									aria-labelledby="tab-thái-nguyên">
 
-									<div class="row" id="row-1504683135">
+									<div class="row" id="row-1345443375">
 
 
-										<div id="col-1561842856" class="col chiduongcn small-12 large-12">
+										<div id="col-2069775993" class="col chiduongcn small-12 large-12">
 											<div class="col-inner">
 
-												<div id="text-919398108" class="text">
+
+
+												<div id="text-2181491920" class="text">
+
 
 													<p style="margin-bottom: 0px;"><strong>Hotline:</strong> <a
 															href="tel:0974139319">0974.139.319</a></p>
 													<strong>Địa chỉ:</strong> số 113 Hoàng Ngân, .P Phan Đình Phùng
+
 													<style>
-														#text-919398108 {
+														#text-2181491920 {
 															font-size: 0.9rem;
 														}
 													</style>
 												</div>
 
+
 											</div>
 										</div>
+
 
 
 									</div>
@@ -9811,17 +9174,17 @@ flex-grow">
 				</div>
 
 
+
 			</div>
 		</div>
 		<p>&nbsp;</p>
 	</div>
 
+
+
 	<div id="zone-zalo" class="lightbox-by-id lightbox-content mfp-hide lightbox-white "
 		style="max-width:650px ;padding:20px">
-		<div class="block-edit-link" data-title="Edit Block: Zone Zalo"
-			data-backend="https://banthotreotuong.com/wp-admin/post.php?post=1464&#038;action=edit"
-			data-link="https://banthotreotuong.com/wp-admin/post.php?post=5129&#038;action=edit&#038;app=uxbuilder&#038;type=editor&#038;edit_post_id=1464">
-		</div>
+
 		<div class="mfp-content">
 			<div id="zone-zalo" class="lightbox-by-id lightbox-content lightbox-white"
 				style="max-width: 400px; padding: 20px;">
@@ -9855,12 +9218,11 @@ flex-grow">
 		</div>
 	</div>
 
+
+
 	<div id="zone-phone" class="lightbox-by-id lightbox-content mfp-hide lightbox-white "
 		style="max-width:650px ;padding:20px">
-		<div class="block-edit-link" data-title="Edit Block: Zone Phone"
-			data-backend="https://banthotreotuong.com/wp-admin/post.php?post=1467&#038;action=edit"
-			data-link="https://banthotreotuong.com/wp-admin/post.php?post=5129&#038;action=edit&#038;app=uxbuilder&#038;type=editor&#038;edit_post_id=1467">
-		</div>
+
 		<div class="mfp-content">
 			<div id="zone-phone-2" class="lightbox-by-id lightbox-content lightbox-white"
 				style="max-width:400px; padding:20px">
@@ -9897,147 +9259,142 @@ flex-grow">
 
 
 
+
+
 	<!-- ============= Pháo hoa ============= -->
 	<!-- <canvas id="canvas-fireworks"></canvas>
 <style>
-#canvas-fireworks {
-display: block; position: fixed; top: 0; left: 0; width: 100%; height: 100vh;
-z-index: 99999; pointer-events: none; mix-blend-mode: screen; transition: opacity 1s ease-out;
-}
+    #canvas-fireworks {
+        display: block; position: fixed; top: 0; left: 0; width: 100%; height: 100vh;
+        z-index: 99999; pointer-events: none; mix-blend-mode: screen; transition: opacity 1s ease-out;
+    }
 </style>
 
 <script>
 (function() {
-// --- 1. KIỂM TRA URL ---
-// Loại bỏ dấu / ở cuối (nếu có) để so sánh chính xác
-const currentUrl = window.location.href.split('?')[0].replace(/\/$/, "");
-const targetUrl = "https://banthotreotuong.com".replace(/\/$/, "");
+    // --- 1. KIỂM TRA URL ---
+    // Loại bỏ dấu / ở cuối (nếu có) để so sánh chính xác
+    const currentUrl = window.location.href.split('?')[0].replace(/\/$/, "");
+    const targetUrl = "https://banthotreotuong.com".replace(/\/$/, "");
 
-// Nếu không đúng trang web này thì DỪNG NGAY, không chạy code bên dưới
-if (currentUrl !== targetUrl) return;
+    // Nếu không đúng trang web này thì DỪNG NGAY, không chạy code bên dưới
+    if (currentUrl !== targetUrl) return;
 
 
-// --- 2. CODE PHÁO HOA ---
-const canvas = document.getElementById('canvas-fireworks');
-const ctx = canvas.getContext('2d');
-let width, height, fireworks = [], particles = [];
-let stopFiring = false;
+    // --- 2. CODE PHÁO HOA ---
+    const canvas = document.getElementById('canvas-fireworks');
+    const ctx = canvas.getContext('2d');
+    let width, height, fireworks = [], particles = [];
+    let stopFiring = false;
 
-const DURATION = 15000; // 15 giây
-const DENSITY = 0.08; // Mật độ dày
+    const DURATION = 15000; // 15 giây
+    const DENSITY = 0.08;   // Mật độ dày
 
-setTimeout(() => { stopFiring = true; }, DURATION);
+    setTimeout(() => { stopFiring = true; }, DURATION);
 
-function resize() {
-width = canvas.width = window.innerWidth;
-height = canvas.height = window.innerHeight;
-}
-window.addEventListener('resize', resize);
-resize();
+    function resize() {
+        width = canvas.width = window.innerWidth;
+        height = canvas.height = window.innerHeight;
+    }
+    window.addEventListener('resize', resize);
+    resize();
 
-const settings = {
-gravity: 0.05, friction: 0.95, particlesCount: 120, decay: 0.012
-};
+    const settings = {
+        gravity: 0.05, friction: 0.95, particlesCount: 120, decay: 0.012
+    };
 
-function random(min, max) { return Math.random() * (max - min) + min; }
+    function random(min, max) { return Math.random() * (max - min) + min; }
 
-class Firework {
-constructor() {
-this.x = random(width * 0.1, width * 0.9);
-this.y = height;
-this.targetY = random(height * 0.1, height * 0.4);
-this.speed = random(4, 7);
-this.angle = -Math.PI / 2 + random(-0.15, 0.15);
-this.vx = Math.cos(this.angle) * this.speed;
-this.vy = Math.sin(this.angle) * this.speed;
-this.hue = random(0, 360);
-this.brightness = random(60, 90);
-}
-update() {
-this.x += this.vx; this.y += this.vy; this.vy += 0.03;
-if (this.vy >= 0 || this.y <= this.targetY) {
-createParticles(this.x, this.y, this.hue);
-return false;
-}
-return true;
-}
-draw() {
-ctx.beginPath();
-ctx.arc(this.x, this.y, 2.5, 0, Math.PI * 2);
-ctx.fillStyle = `hsl(${this.hue}, 100%, ${this.brightness}%)`;
-ctx.fill();
-}
-}
+    class Firework {
+        constructor() {
+            this.x = random(width * 0.1, width * 0.9);
+            this.y = height;
+            this.targetY = random(height * 0.1, height * 0.4);
+            this.speed = random(4, 7);
+            this.angle = -Math.PI / 2 + random(-0.15, 0.15);
+            this.vx = Math.cos(this.angle) * this.speed;
+            this.vy = Math.sin(this.angle) * this.speed;
+            this.hue = random(0, 360);
+            this.brightness = random(60, 90);
+        }
+        update() {
+            this.x += this.vx; this.y += this.vy; this.vy += 0.03;
+            if (this.vy >= 0 || this.y <= this.targetY) {
+                createParticles(this.x, this.y, this.hue);
+                return false;
+            }
+            return true;
+        }
+        draw() {
+            ctx.beginPath();
+            ctx.arc(this.x, this.y, 2.5, 0, Math.PI * 2);
+            ctx.fillStyle = `hsl(${this.hue}, 100%, ${this.brightness}%)`;
+            ctx.fill();
+        }
+    }
 
-class Particle {
-constructor(x, y, hue) {
-this.x = x; this.y = y;
-this.hue = hue + random(-30, 30);
-const angle = random(0, Math.PI * 2);
-const speed = random(2, 9);
-this.vx = Math.cos(angle) * speed;
-this.vy = Math.sin(angle) * speed;
-this.alpha = 1;
-this.decay = random(settings.decay, settings.decay + 0.01);
-}
-update() {
-this.vx *= settings.friction; this.vy *= settings.friction; this.vy += settings.gravity;
-this.x += this.vx; this.y += this.vy;
-this.alpha -= this.decay;
-return this.alpha > 0;
-}
-draw() {
-ctx.save();
-ctx.globalAlpha = this.alpha;
-ctx.globalCompositeOperation = 'lighter';
-ctx.beginPath();
-ctx.arc(this.x, this.y, 2.2, 0, Math.PI * 2);
-ctx.fillStyle = `hsl(${this.hue}, 100%, 60%)`;
-ctx.fill();
-ctx.restore();
-}
-}
+    class Particle {
+        constructor(x, y, hue) {
+            this.x = x; this.y = y;
+            this.hue = hue + random(-30, 30);
+            const angle = random(0, Math.PI * 2);
+            const speed = random(2, 9);
+            this.vx = Math.cos(angle) * speed;
+            this.vy = Math.sin(angle) * speed;
+            this.alpha = 1;
+            this.decay = random(settings.decay, settings.decay + 0.01);
+        }
+        update() {
+            this.vx *= settings.friction; this.vy *= settings.friction; this.vy += settings.gravity;
+            this.x += this.vx; this.y += this.vy;
+            this.alpha -= this.decay;
+            return this.alpha > 0;
+        }
+        draw() {
+            ctx.save();
+            ctx.globalAlpha = this.alpha;
+            ctx.globalCompositeOperation = 'lighter';
+            ctx.beginPath();
+            ctx.arc(this.x, this.y, 2.2, 0, Math.PI * 2);
+            ctx.fillStyle = `hsl(${this.hue}, 100%, 60%)`;
+            ctx.fill();
+            ctx.restore();
+        }
+    }
 
-function createParticles(x, y, hue) {
-for (let i = 0; i < settings.particlesCount; i++) {
-particles.push(new Particle(x, y, hue));
-}
-}
+    function createParticles(x, y, hue) {
+        for (let i = 0; i < settings.particlesCount; i++) {
+            particles.push(new Particle(x, y, hue));
+        }
+    }
 
-function loop() {
-ctx.globalCompositeOperation = 'source-over';
-ctx.fillStyle = 'rgba(0, 0, 0, 0.2)';
-ctx.fillRect(0, 0, width, height);
+    function loop() {
+        ctx.globalCompositeOperation = 'source-over';
+        ctx.fillStyle = 'rgba(0, 0, 0, 0.2)';
+        ctx.fillRect(0, 0, width, height);
 
-if (!stopFiring && Math.random() < DENSITY) {
-fireworks.push(new Firework());
-}
+        if (!stopFiring && Math.random() < DENSITY) {
+            fireworks.push(new Firework());
+        }
 
-fireworks = fireworks.filter(f => { f.draw(); return f.update(); });
-particles = particles.filter(p => { p.draw(); return p.update(); });
+        fireworks = fireworks.filter(f => { f.draw(); return f.update(); });
+        particles = particles.filter(p => { p.draw(); return p.update(); });
 
-if (stopFiring && fireworks.length === 0 && particles.length === 0) {
-canvas.style.opacity = 0;
-setTimeout(() => canvas.remove(), 1000);
-return;
-}
+        if (stopFiring && fireworks.length === 0 && particles.length === 0) {
+            canvas.style.opacity = 0;
+            setTimeout(() => canvas.remove(), 1000);
+            return;
+        }
 
-requestAnimationFrame(loop);
-}
-loop();
+        requestAnimationFrame(loop);
+    }
+    loop();
 })();
 </script> -->
 
 	<!-- ============= Hết Pháo hoa ============= -->
 	<script
 		type="application/ld+json">{"@context":"https:\/\/schema.org\/","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"name":"Trang ch\u1ee7","@id":"https:\/\/banthotreotuong.com"}},{"@type":"ListItem","position":2,"item":{"name":"B\u00e0n th\u1edd treo t\u01b0\u1eddng","@id":"https:\/\/banthotreotuong.com\/ban-tho-treo-tuong\/"}}]}</script>
-	<script type="text/javascript">
-		/* <![CDATA[ */
-
-		var wpfc_ajaxurl = 'https://banthotreotuong.com/wp-admin/admin-ajax.php';
-		var wpfc_nonce = '136e2b2c78';
-		/* ]]> */
-	</script>
 	<script type='text/javascript'>
 		(function () {
 			var c = document.body.className;
@@ -10045,10 +9402,6 @@ loop();
 			document.body.className = c;
 		})();
 	</script>
-	<script type="text/javascript" src="https://banthotreotuong.com/wp-includes/js/hoverintent-js.min.js?ver=2.2.1"
-		id="hoverintent-js-js"></script>
-	<script type="text/javascript" src="https://banthotreotuong.com/wp-includes/js/admin-bar.min.js?ver=6.9.1"
-		id="admin-bar-js"></script>
 	<script type="text/javascript"
 		src="https://banthotreotuong.com/wp-includes/js/dist/hooks.min.js?ver=dd5603f07f9220ed27f1"
 		id="wp-hooks-js"></script>
@@ -10129,9 +9482,6 @@ loop();
 		src="https://banthotreotuong.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=10.3.8"
 		id="woocommerce-js" data-wp-strategy="defer"></script>
 	<script type="text/javascript"
-		src="https://banthotreotuong.com/wp-content/plugins/seo-by-rank-math/assets/front/js/rank-math.js?ver=1.0.257"
-		id="rank-math-js"></script>
-	<script type="text/javascript"
 		src="https://banthotreotuong.com/wp-content/themes/flatsome/assets/js/extensions/flatsome-live-search.js?ver=3.20.3"
 		id="flatsome-live-search-js"></script>
 	<script type="text/javascript"
@@ -10146,14 +9496,11 @@ loop();
 	<script type="text/javascript"
 		src="https://banthotreotuong.com/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=10.3.8"
 		id="wc-order-attribution-js"></script>
-	<script type="text/javascript"
-		src="https://banthotreotuong.com/wp-content/plugins/wp-fastest-cache/js/toolbar.js?ver=1773113663"
-		id="wpfc-toolbar-js"></script>
 	<script type="text/javascript" src="https://banthotreotuong.com/wp-includes/js/hoverIntent.min.js?ver=1.10.2"
 		id="hoverIntent-js"></script>
 	<script type="text/javascript" id="flatsome-js-js-extra">
 		/* <![CDATA[ */
-		var flatsomeVars = { "theme": { "version": "3.20.3" }, "ajaxurl": "https://banthotreotuong.com/wp-admin/admin-ajax.php", "rtl": "", "sticky_height": "100", "stickyHeaderHeight": "0", "scrollPaddingTop": "0", "assets_url": "https://banthotreotuong.com/wp-content/themes/flatsome/assets/", "lightbox": { "close_markup": "\u003Cbutton title=\"%title%\" type=\"button\" class=\"mfp-close\"\u003E\u003Csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-x\"\u003E\u003Cline x1=\"18\" y1=\"6\" x2=\"6\" y2=\"18\"\u003E\u003C/line\u003E\u003Cline x1=\"6\" y1=\"6\" x2=\"18\" y2=\"18\"\u003E\u003C/line\u003E\u003C/svg\u003E\u003C/button\u003E", "close_btn_inside": false }, "user": { "can_edit_pages": true }, "i18n": { "mainMenu": "Menu ch\u00ednh", "toggleButton": "Chuy\u1ec3n \u0111\u1ed5i" }, "options": { "cookie_notice_version": "1", "swatches_layout": false, "swatches_disable_deselect": false, "swatches_box_select_event": false, "swatches_box_behavior_selected": false, "swatches_box_update_urls": "1", "swatches_box_reset": false, "swatches_box_reset_limited": false, "swatches_box_reset_extent": false, "swatches_box_reset_time": 300, "search_result_latency": "0", "header_nav_vertical_fly_out_frontpage": 1 }, "is_mini_cart_reveal": "1" };
+		var flatsomeVars = { "theme": { "version": "3.20.3" }, "ajaxurl": "https://banthotreotuong.com/wp-admin/admin-ajax.php", "rtl": "", "sticky_height": "70", "stickyHeaderHeight": "0", "scrollPaddingTop": "0", "assets_url": "https://banthotreotuong.com/wp-content/themes/flatsome/assets/", "lightbox": { "close_markup": "\u003Cbutton title=\"%title%\" type=\"button\" class=\"mfp-close\"\u003E\u003Csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-x\"\u003E\u003Cline x1=\"18\" y1=\"6\" x2=\"6\" y2=\"18\"\u003E\u003C/line\u003E\u003Cline x1=\"6\" y1=\"6\" x2=\"18\" y2=\"18\"\u003E\u003C/line\u003E\u003C/svg\u003E\u003C/button\u003E", "close_btn_inside": false }, "user": { "can_edit_pages": false }, "i18n": { "mainMenu": "Menu ch\u00ednh", "toggleButton": "Chuy\u1ec3n \u0111\u1ed5i" }, "options": { "cookie_notice_version": "1", "swatches_layout": false, "swatches_disable_deselect": false, "swatches_box_select_event": false, "swatches_box_behavior_selected": false, "swatches_box_update_urls": "1", "swatches_box_reset": false, "swatches_box_reset_limited": false, "swatches_box_reset_extent": false, "swatches_box_reset_time": 300, "search_result_latency": "0", "header_nav_vertical_fly_out_frontpage": 1 }, "is_mini_cart_reveal": "1" };
 		//# sourceURL=flatsome-js-js-extra
 		/* ]]> */
 	</script>
@@ -10203,6 +9550,7 @@ loop();
 	</script>
 
 
+
 	<style>
 	</style>
 
@@ -10211,6 +9559,7 @@ loop();
 		var accordions_active = null;
 		var accordions_tabs_active = null;
 	</script>
+
 
 
 
